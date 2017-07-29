@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Hind Siliguri", sans-serif;
+  background: white;
+}
+
+a {
+  color: #292929;
+  text-decoration: none;
+}
+
+.case-title {
+  color: #444d6c;
+}
+
+.case-container {
+  border: 1px solid #eee;
+  margin-top: 30px;
+}
+
+.case-header {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #292929;
+}
+
+a:hover {
+  color: #292929;
+}
+
+.project-banner {
+  width: 100%;
+  background-color: #6FCF97;
+  height: 5px;
+  margin-bottom: 30px;
+}
+
+#project-GE {
+  background-color: #2F80ED;
+}
+
+#project-Study-Buddies {
+  background-color: rgba(235, 87, 87, 0.8);
+}
+
+#project-MobeWash {
+  background-color: #444d6c;
+}
+
+
+/* Hover.css code*/
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #6FCF97;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.case-title {
+  text-align: center;
+}
+
+.project-descriptor {
+  text-align: center;
+  font-size: 20px;
+  color: #959595;
+  margin-bottom: 80px;
+}
+
+.project-subheading {
+  margin-left: 10px;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.content-subheading {
+  margin-left: 10px;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.project-content {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 100;
+}
+
+.link {
+  border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+.link:hover {
+  border-bottom: 1px solid #6FCF97;
+}
+
+li {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.footer-link {
+  font-size: 20px;
+
+  text-decoration: none;
+
+}
+
+.footer-link:hover {
+  border-bottom: 1px solid #6FCF97;
+
+}
