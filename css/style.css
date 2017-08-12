@@ -4,7 +4,7 @@
 }
 
 body{
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: "San Francisco", sans-serif;
   background: #ffffff;
 }
 
@@ -14,7 +14,7 @@ a {
  }
 
  h1 {
-   font-weight: normal;
+
    color: #383636;
  }
 
@@ -36,23 +36,24 @@ span {
 .hero-card {
 
   margin-top: 20px;
-  margin-bottom: 250px;
-
+  margin-bottom: 100px;
+  padding: 50px;
 
 }
 
-#tagline {
-  font-size: 24px;
-  color: #6FCF97;
-  font-weight: 100;
+.top {
+  background-color: #FAFAFA;
 }
+
 
 .hero-description {
-  margin-left: 30px;
-  max-width: 600px;
+  margin-left: 20px;
+  max-width: 800px;
   line-height: 200%;
-  font-size: 20px;
+  font-size: 24px;
   margin-right: 20px;
+  font-weight: lighter;
+
 }
 
 
@@ -68,9 +69,6 @@ span {
   font-size: 20px;
 }
 
-.project-container {
-  margin-top: 20px;
-}
 
 .nav {
   float: right;
@@ -82,17 +80,21 @@ span {
 }
 
 .hero-name {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 10px;
   margin-right: 20px;
-  color:
+  font-weight: 500;
+  font-size: 40px;
+
 
 }
+
 
 .nav-item {
   display: inline;
   font-size: 20px;
   margin: 0 7px;
+  font-weight: lighter;
 }
 
 
@@ -110,8 +112,6 @@ span {
     border-bottom: 1px solid #6FCF97;
     color: black;
 }
-
-
 
 
 .active{
@@ -133,7 +133,7 @@ span {
   width: 180px;
   border-radius: 100px;
   margin-top:10px;
-  margin-left:10px;
+  margin-left:20px;
   background-color: rgba(81, 146, 242, 1);
   color: white;
   font-size: 16px;
@@ -147,6 +147,7 @@ span {
 .btn:hover {
   background-color: white;
   color: rgba(81, 146, 242, 1);
+  border: 1px solid rgba(81, 146, 242, 1);
   box-shadow: 0 24px 46px -16px rgba(0, 0, 0, 0);
 
 }
@@ -160,6 +161,7 @@ span {
 #Study-Buddies:hover {
   background-color: white;
   color: rgba(235, 87, 87, 0.8);
+  border: 1px solid rgba(235, 87, 87, 0.8);
   box-shadow: 0 24px 46px -16px rgba(0, 0, 0, 0);
 }
 
@@ -171,6 +173,7 @@ span {
 #MobeWash:hover {
   background-color: white;
   color: #444d6c;
+  border: 1px solid #444d6c;
   box-shadow: 0 24px 46px -16px rgba(0, 0, 0, 0);
 }
 
@@ -200,7 +203,7 @@ span {
 }
 
 .icon-container {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .social-container .icon-container a {
@@ -220,6 +223,8 @@ span {
 .social-container .icon-container .icon img {
   height: 25px
 }
+
+
 
 .social-container .icon-container .icon:hover {
   opacity: 1;
@@ -298,11 +303,10 @@ span {
 .project-card {
 
 
-  width: 100%;
 
+  margin-top: 100px;
   margin-bottom: 200px;
   min-height: 300px;
-  /*box-shadow: 0 24px 46px -16px rgba(0, 0, 0, .5);*/
 
 }
 
@@ -315,21 +319,28 @@ span {
   float: left;
 }
 
-.project-banner {
-  margin-top: 20px;
-  width: 100%;
+
+
+.project-banner-alt {
+  margin-top: 10px;
+  width: 10%;
+  margin-left: 20px;
   background-color: #6FCF97;
   height: 5px;
   margin-bottom: 10px;
 }
 
-.project-banner-alt {
+.project-banner-alt-hero {
   margin-top: 10px;
   width: 10%;
-  margin-left: 15px;
+  margin-left: 35px;
   background-color: #6FCF97;
   height: 5px;
   margin-bottom: 10px;
+}
+
+#hero-banner {
+  padding-left: 30px;
 }
 
 #project-GE {
@@ -345,28 +356,31 @@ span {
   background-color: #444d6c;
 }
 
+
+
 .project-name {
   margin-top: 20px;
-  padding-left: 15px;
+  padding-left: 20px;
   font-size: 40px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .project-type {
-  padding-left: 15px;
+  padding-left: 20px;
   color: rgb(108, 108, 108);
   font-weight: 200;
   font-size: 24px;
-  font-family: sans-serif;
+
 }
 
 .project-description {
-  padding-left: 15px;
+  padding-left: 20px;
   max-width: 400px;
   margin-right: 20px;
   line-height: 30px;
   font-size: 20px;
   color: #292929;
+  font-weight: lighter;
 }
 
 .footer-card {
@@ -377,14 +391,15 @@ span {
 }
 
 .footer-description {
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 18px;
   margin-top: 20px;
   margin-right: 20px;
+  font-weight: lighter;
 }
 
 .footer-link {
-  font-size: 20px;
+  font-size: 18px;
   color: #6FCF97;
   text-decoration: none;
   transition: 0.5s;
@@ -395,6 +410,17 @@ span {
   color: #6FCF97;
 }
 
+.footer-link-resume {
+  font-size: 24px;
+  color: #6FCF97;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer-link-resume:hover {
+  border-bottom: 1px solid #6FCF97;
+  color: #6FCF97;
+}
 
 
 @media (max-width: 600px) {
@@ -403,11 +429,25 @@ span {
     margin-right: 15px
   }
 
+  .hero-name {font-size: 30px;}
+
+  .project-name {font-size: 30px;}
+
+  .hero-description {font-size: 20px;}
+
+  .footer-link-resume {
+    font-size: 20px;
+  }
+
   .nav-container {
     display: none;
   }
 
   .img-container-mobile img {
+    max-height: 100px;
+  }
+
+  .img-container-mobile i {
     max-height: 100px;
   }
 
