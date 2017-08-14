@@ -392,14 +392,14 @@ span {
 
 .footer-description {
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 20px;
   margin-right: 20px;
   font-weight: lighter;
 }
 
 .footer-link {
-  font-size: 18px;
+  font-size: 20px;
   color: #6FCF97;
   text-decoration: none;
   transition: 0.5s;
