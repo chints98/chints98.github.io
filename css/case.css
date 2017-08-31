@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 * {
   box-sizing: border-box;
 }
 
 body{
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background: white;
 }
 
