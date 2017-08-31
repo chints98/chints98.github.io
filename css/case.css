@@ -57,38 +57,32 @@ a:hover {
   background-color: #444d6c;
 }
 
-
-/* Hover.css code*/
-
-.hvr-underline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  overflow: hidden;
-}
-.hvr-underline-from-left:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #6FCF97;
-  height: 2px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
-  right: 0;
+.nav {
+  float: right;
 }
 
+.nav-container {
+
+  margin-top: 2%;
+}
+
+.nav-item {
+  display: inline;
+  font-size: 20px;
+  margin: 0 7px;
+  font-weight: lighter;
+}
+
+.nav-item .link:hover{
+    border-bottom: 1px solid #6FCF97;
+    color: black;
+}
+
+
+.active{
+    border-bottom: 1px solid #6FCF97;
+    text-decoration: none;
+}
 .case-title {
   text-align: center;
 }
@@ -143,4 +137,10 @@ li {
 .footer-link:hover {
   border-bottom: 1px solid #6FCF97;
 
+}
+
+@media (max-width:600px) {
+  .nav-container {
+    display: none;
+  }
 }
