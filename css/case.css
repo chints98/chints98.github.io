@@ -12,7 +12,10 @@ a {
   color: #292929;
   text-decoration: none;
 }
+.about-title {
 
+  font-size: 24px;
+}
 .case-title {
   color: #444d6c;
 }
