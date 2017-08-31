@@ -73,6 +73,10 @@ a:hover {
   font-weight: lighter;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .nav-item .link:hover{
     border-bottom: 1px solid #6FCF97;
     color: black;
