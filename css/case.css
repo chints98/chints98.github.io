@@ -33,6 +33,10 @@ a {
   color: #292929;
 }
 
+.case-container {
+  margin-bottom: 50px;
+}
+
 a:hover {
   color: #292929;
 }
