@@ -1,11 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+
+@font-face {
+  font-family: 'web-din-pro';
+  src: url('dinpro/400.woff2') format('woff2'),
+       url('dinpro/400.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: 'web-din-pro';
+  src: url('dinpro/600.woff2') format('woff2'),
+       url('dinpro/600.woff') format('woff');
+  font-weight: 600;
+  font-style: bold;
+  font-stretch: normal;
+  font-variant: normal;
+}
 
 * {
   box-sizing: border-box;
 }
 
 body{
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'web-din-pro', 'Open Sans', sans-serif;
   background: #ffffff;
 }
 
@@ -27,8 +46,8 @@ span {
   color: #fff;
 }
 
-p {
-  font-family: "Source Sans Pro", sans-serif;
+p{
+  font-weight: lighter;
 }
 
 .hero-card {
@@ -55,7 +74,6 @@ p {
   font-size: 24px;
   margin-right: 20px;
   font-weight: lighter;
-  font-family: "Source Sans Pro", sans-serif;
 
 }
 
@@ -86,8 +104,8 @@ p {
   margin-left: 20px;
   margin-top: 10px;
   margin-right: 20px;
-  font-weight: 600;
-  font-size: 40px;
+  font-weight: bolder;
+  font-size: 42px;
 
 
 }
@@ -314,9 +332,6 @@ p {
 
 
 .project-card {
-
-
-
   margin-top: 100px;
   margin-bottom: 200px;
   min-height: 300px;
@@ -378,7 +393,7 @@ p {
   margin-top: 20px;
   padding-left: 20px;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .project-type {
@@ -445,7 +460,7 @@ p {
     margin-right: 15px
   }
 
-  .hero-name {font-size: 25px;}
+  .hero-name {font-size: 30px;}
 
   .project-name {font-size: 30px;}
 
@@ -457,6 +472,10 @@ p {
 
   .nav-container {
     display: none;
+  }
+
+  .project-card {
+      padding: 50px;
   }
 
   .img-container-mobile img {
