@@ -305,6 +305,7 @@ button:hover{
     background: #2F80ED;
     background-repeat: no-repeat;
     min-height: 100vh;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
