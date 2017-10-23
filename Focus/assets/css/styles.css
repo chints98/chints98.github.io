@@ -118,7 +118,8 @@ body {
 }
 
 .radiology-img-container {
-  padding: 30px;
+  display: block;
+  padding: 20px;
 }
 
 .radiology-img-container img {

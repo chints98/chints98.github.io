@@ -38,7 +38,7 @@ a {
   color: #4f4f4f;
 }
 .case-title {
-  color: #444d6c;
+  color: #292929;
 }
 
 .case-container {
@@ -80,6 +80,10 @@ a:hover {
 
 #project-MobeWash {
   background-color: #444d6c;
+}
+
+#project-Taskboard {
+  background-color: #50E3C2;
 }
 
 .nav {
