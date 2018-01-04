@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 @font-face {
   font-family: 'web-din-pro';
@@ -48,6 +49,7 @@ span {
 
 p{
   font-weight: lighter;
+
 }
 
 .hero-card {
