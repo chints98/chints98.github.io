@@ -17,8 +17,17 @@ html{
     overflow-y: hidden;
 }
 
+p {
+  line-height: 2;
+}
+
+h1 {
+  font-family: "Lato",Helvetica,Arial,sans-serif !important;
+  font-size: 32px;
+}
+
 body {
-    font-family:"Lato",Helvetica,Arial,sans-serif !important;
+    font-family:"Avenir",Helvetica,Arial,sans-serif !important;
     font-size: 16px;
     color: #494f56;
     overflow-x: hidden;
@@ -51,6 +60,8 @@ body {
 
 .hero-header {
   padding-bottom: 20px;
+  font-family: "Lato",Helvetica,Arial,sans-serif !important;
+  font-size: 32px;
 }
 
 .hero-description {
@@ -69,7 +80,7 @@ body {
 }
 
 .repo-text {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -203,17 +214,14 @@ button{
     line-height: 2px;
     -webkit-transition: .5s ease 0s;
     transition: .5s ease 0s;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     border: 1px solid white;
     margin-right: 5px;
     margin-bottom: 5px;
 }
 
-.button-alt {
-  background-color: white;
-  color: #2F80ED
-}
+
 
 .button-learn {
   border: 1px solid white;
@@ -278,6 +286,35 @@ button:hover{
     color: #2F80ED;
     background-color: white;
     border-color: white;
+}
+
+.get-a-quote-alt{
+
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.get-a-quote-alt > button{
+    border-color: white;
+    background-color: white;
+}
+
+.get-a-quote-alt:hover{
+    -webkit-transition: .5s ease 0s;
+    transition: .5s ease 0s;
+    cursor: pointer;
+}
+.get-a-quote-alt:hover > button:hover{
+    color: white;
+    background-color: #2F80ED;
+    border-color: #2F80ED;
+}
+
+.button-alt {
+
+  color: #2F80ED;
 }
 
 .text{
