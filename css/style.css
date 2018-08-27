@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 
 @font-face {
   font-family: 'web-din-pro';
@@ -36,6 +38,8 @@ a {
 
  h1 {
 
+   font-size: 48px;
+   font-style: normal;
    color: #383636;
  }
 
@@ -210,6 +214,17 @@ p{
   box-shadow: 0 24px 46px -16px rgba(0, 0, 0, 0);
 }
 
+#PD {
+  background-color: #25c151;
+}
+
+#PD:hover {
+  background-color: #FAFAFA;
+  color: #25c151;
+  border: 1px solid #25c151;
+  box-shadow: 0 24px 46px -16px rgba(0, 0, 0, 0);
+}
+
 .title-container {
   min-width: 400px;
 }
@@ -377,6 +392,10 @@ p{
   background-color: #2F80ED;
 }
 
+#project-PD {
+  background-color: #25c151;
+}
+
 #project-Study-Buddies {
   background-color: rgba(235, 87, 87, 0.8);
 }
@@ -399,10 +418,11 @@ p{
 }
 
 .project-type {
+
   padding-left: 20px;
   color: rgb(108, 108, 108);
   font-weight: 200;
-  font-size: 24px;
+  font-size: 22px;
 
 }
 
