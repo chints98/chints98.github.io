@@ -26,7 +26,7 @@
 }
 
 body{
-  font-family: "web-din-pro", sans-serif;
+  font-family: 'Hind Siliguri', 'Open Sans', sans-serif;
   background: white;
 }
 
@@ -43,6 +43,8 @@ a {
 }
 .case-title {
   color: #292929;
+  font-family: 'Hind', sans-serif;
+  font-weight: medium;
 }
 
 .case-container {

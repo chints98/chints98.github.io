@@ -56,6 +56,29 @@
 
 </script>
 
+<script>
+
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1)
+history.go(-1);
+if (pass1.toLowerCase() == "pdcasestudy") {
+window.open('PagerDuty-slide-deck/index.html');
+break;
+}
+testV+=1;
+var pass1 =
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+
+
+</script>
 
 </head>
 
@@ -127,10 +150,12 @@
             tool to help curate user research and customer learnings.
           </p>
 
-          <p class="project-description">Note - The case study is password protected due to an NDA signed with the company.
+          <p class="project-description">Note - The case study is password protected due to an NDA signed with the company. If we've spoken earlier, enter the password after clicking the link!
           </p>
           <a href="_blank">
-            <button class="btn" id="PD">Private Case Study</button>
+            <form>
+            <button class="btn" id="PD" onclick="passWord()">Private Case Study</button>
+          </form>
           </a>
         </div>
       </div>
@@ -147,6 +172,7 @@
           <h3 class="project-type">UI/UX Design</h3>
           <p class="project-description">Designing and conceptualizing an alternative way to view and visualize tasks. Inspired by the agile methodology and Kanban boards.
           </p>
+        
           <a href="https://medium.com/@chaitanyaprashant/taskboard-a-different-to-do-list-ba939cc76148" target="_blank">
             <button class="btn" id="Taskboard">Case Study</button>
           </a>
