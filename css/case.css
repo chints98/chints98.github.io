@@ -148,6 +148,8 @@ a:hover {
 
 .image-caption {
   padding: 20px;
+  text-align: center;
+  color: #828282;
 }
 
 .link {
