@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Due-date-1.0@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="64"></rect>
+        <filter x="-0.1%" y="-0.4%" width="100.1%" height="101.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.698039216   0 0 0 0 0.698039216  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="375" height="44"></rect>
+        <filter x="-0.1%" y="-0.6%" width="100.1%" height="101.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.815686275   0 0 0 0 0.00784313725   0 0 0 0 0.105882353  0 0 0 0.8 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Due-date-1.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="375" height="667"></rect>
+        <g id="Alternate-header">
+            <g id="Bar">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Center" transform="translate(152.000000, 32.000000)" fill="#000000" font-family="SFUIText-Semibold, SF UI Text" font-size="17" font-weight="500" letter-spacing="-0.409999996">
+                <text id="Due-Date">
+                    <tspan x="0.290390611" y="16">Due Date</tspan>
+                </text>
+            </g>
+            <g id="Status-Bar">
+                <g id="Pin-Right" transform="translate(309.000000, 3.000000)" fill="#000000">
+                    <path d="M37.4937128,2.5 L57.0062872,2.5 C57.8266197,2.5 58.5,3.17394722 58.5,4.00530324 L58.5,10.4946968 C58.5,11.3319784 57.831242,12 57.0062872,12 L37.4937128,12 C36.6733803,12 36,11.3260528 36,10.4946968 L36,4.00530324 C36,3.16802155 36.668758,2.5 37.4937128,2.5 Z M59,5.5 L59.75,5.5 C60.1671014,5.5 60.5,5.83232111 60.5,6.24225998 L60.5,8.25774002 C60.5,8.66440529 60.1642136,9 59.75,9 L59,9 L59,5.5 Z M37.5081524,3 C36.9513652,3 36.5,3.45699692 36.5,4.00844055 L36.5,10.4915594 C36.5,11.0485058 36.9490581,11.5 37.5081524,11.5 L56.9918476,11.5 C57.5486348,11.5 58,11.0430031 58,10.4915594 L58,4.00844055 C58,3.45149422 57.5509419,3 56.9918476,3 L37.5081524,3 Z M37.5067444,3.5 L56.9932556,3.5 C57.2697754,3.5 57.5,3.72031886 57.5,3.99209595 L57.5,10.5079041 C57.5,10.783628 57.2731228,11 56.9932556,11 L37.5067444,11 C37.2302246,11 37,10.7796811 37,10.5079041 L37,3.99209595 C37,3.71637201 37.2268772,3.5 37.5067444,3.5 Z" id="Battery"></path>
+                    <text id="100%" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300">
+                        <tspan x="4.93945312" y="11.5">100%</tspan>
+                    </text>
+                </g>
+                <text id="Time" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300" fill="#000000">
+                    <tspan x="166.634766" y="14.5">9:41 AM</tspan>
+                </text>
+                <g id="Overrides/Status-Bar/Signal---Black" fill="#030303">
+                    <path d="M96.1444208,12.4385043 L94.0225391,14.5 L91.8601652,12.4053177 C92.3778594,11.8314341 93.1390073,11.4689119 93.987563,11.4689119 C94.8523616,11.4689119 95.626374,11.8454456 96.1444208,12.4385043 Z M98.3234964,10.3214425 L97.2346215,11.3793293 C96.4356305,10.518235 95.2768836,9.97668394 93.987563,9.97668394 C92.713648,9.97668394 91.567205,10.5053708 90.7692987,11.3486 L89.6792698,10.2926936 C90.7566264,9.17975893 92.2882723,8.48445596 93.987563,8.48445596 C95.7014387,8.48445596 97.2447794,9.19174563 98.3234964,10.3214425 Z M100.5,8.20687933 L99.4118698,9.26404272 C98.0538809,7.86552609 96.1260026,6.99222798 93.987563,6.99222798 C91.8628921,6.99222798 89.9460798,7.85431655 88.5895579,9.23709441 L87.5,8.18164431 C89.1355496,6.52895605 91.4375103,5.5 93.987563,5.5 C96.5505699,5.5 98.8629578,6.53943672 100.5,8.20687933 Z" id="Wi-Fi" fill-rule="evenodd"></path>
+                    <text id="Carrier" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal">
+                        <tspan x="44" y="14.5">Sketch</tspan>
+                    </text>
+                    <path d="M9.25,13 C7.73121694,13 6.5,11.7687831 6.5,10.25 C6.5,8.73121694 7.73121694,7.5 9.25,7.5 C10.7687831,7.5 12,8.73121694 12,10.25 C12,11.7687831 10.7687831,13 9.25,13 Z M16.25,13 C14.7312169,13 13.5,11.7687831 13.5,10.25 C13.5,8.73121694 14.7312169,7.5 16.25,7.5 C17.7687831,7.5 19,8.73121694 19,10.25 C19,11.7687831 17.7687831,13 16.25,13 Z M23.25,13 C21.7312169,13 20.5,11.7687831 20.5,10.25 C20.5,8.73121694 21.7312169,7.5 23.25,7.5 C24.7687831,7.5 26,8.73121694 26,10.25 C26,11.7687831 24.7687831,13 23.25,13 Z M30.25,13 C28.7312169,13 27.5,11.7687831 27.5,10.25 C27.5,8.73121694 28.7312169,7.5 30.25,7.5 C31.7687831,7.5 33,8.73121694 33,10.25 C33,11.7687831 31.7687831,13 30.25,13 Z M37.25,13 C35.7312169,13 34.5,11.7687831 34.5,10.25 C34.5,8.73121694 35.7312169,7.5 37.25,7.5 C38.7687831,7.5 40,8.73121694 40,10.25 C40,11.7687831 38.7687831,13 37.25,13 Z" id="Mobile-Signal" fill-rule="evenodd"></path>
+                </g>
+            </g>
+            <g id="Cancel-button" transform="translate(9.000000, 32.000000)" fill="#76D9BF" font-family="SFUIText-Medium, SF UI Text" font-size="17" font-weight="400" letter-spacing="-0.2541146">
+                <text id="Cancel">
+                    <tspan x="0.547988331" y="16">Cancel</tspan>
+                </text>
+            </g>
+            <g id="Done-button" transform="translate(325.000000, 33.000000)" fill="#76D9BF" font-family="SFUIText-Medium, SF UI Text" font-size="17" font-weight="400" letter-spacing="-0.2541146">
+                <text id="Done">
+                    <tspan x="0.0341081063" y="16">Done</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Simple-Calendar" transform="translate(0.000000, 86.000000)">
+            <rect id="Rectangle-28" fill="#FFFFFF" x="0.207866741" y="0.948820689" width="375.792133" height="323" rx="6"></rect>
+            <text id="December-2017" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" fill="#000000">
+                <tspan x="131.453125" y="44">December 2017</tspan>
+            </text>
+            <path d="M131.637997,170.738982 C133.68968,174.411863 137.615573,176.89538 142.121523,176.89538 C148.74894,176.89538 154.121523,171.522797 154.121523,164.89538 C154.121523,158.267963 148.74894,152.89538 142.121523,152.89538 C135.494106,152.89538 130.121523,158.267963 130.121523,164.89538 C130.121523,167.016847 130.672035,169.009736 131.637997,170.738982 Z" id="Oval-1" fill="#76D9BF"></path>
+            <g id="calendar" transform="translate(32.047375, 74.948821)">
+                <g id="Group-3" transform="translate(0.229209, 0.261553)">
+                    <g id="numbers" transform="translate(0.000000, 46.933717)" font-size="10">
+                        <text id="27" font-family="SFUIText-Medium, SF UI Text" font-weight="400" fill="#E1E4E7">
+                            <tspan x="2.59354289" y="10">27</tspan>
+                        </text>
+                        <text id="4" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="5.37918742" y="45.6336061">4</tspan>
+                        </text>
+                        <text id="11" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="3.93387492" y="80.5545401">11</tspan>
+                        </text>
+                        <text id="18" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="3.07205852" y="115.475474">18</tspan>
+                        </text>
+                        <text id="25" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="2.48367961" y="148.258392">25</tspan>
+                        </text>
+                        <text id="26" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="52.9615792" y="148.258392">26</tspan>
+                        </text>
+                        <text id="19" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="53.6500558" y="114.762802">19</tspan>
+                        </text>
+                        <text id="12" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="53.8160714" y="80.5545401">12</tspan>
+                        </text>
+                        <text id="5" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="56.0743722" y="45.6336061">5</tspan>
+                        </text>
+                        <text id="28" font-family="SFUIText-Medium, SF UI Text" font-weight="400" fill="#E1E4E7">
+                            <tspan x="52.7833565" y="10">28</tspan>
+                        </text>
+                        <text id="27" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="103.869166" y="148.258392">27</tspan>
+                        </text>
+                        <text id="20" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="103.568873" y="114.762802">20</tspan>
+                        </text>
+                        <text id="13" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="104.271998" y="79.841868">13</tspan>
+                        </text>
+                        <text id="6" font-family="SFUIText-Medium, SF UI Text" font-weight="400" fill="#FFFFFF">
+                            <tspan x="106.469264" y="45.6336061">6</tspan>
+                        </text>
+                        <text id="29" font-family="SFUIText-Medium, SF UI Text" font-weight="400" fill="#E1E4E7">
+                            <tspan x="104.378444" y="10">29</tspan>
+                        </text>
+                        <text id="28" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="154.095601" y="148.258392">28</tspan>
+                        </text>
+                        <text id="21" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="154.957417" y="114.762802">21</tspan>
+                        </text>
+                        <text id="14" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="154.759664" y="79.841868">14</tspan>
+                        </text>
+                        <text id="7" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="157.459859" y="45.6336061">7</tspan>
+                        </text>
+                        <text id="1" font-family="SFUIText-Medium, SF UI Text" font-weight="400" fill="#E1E4E7">
+                            <tspan x="153.861226" y="11.4253442">30</tspan>
+                        </text>
+                        <text id="29" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="204.673598" y="148.258392">29</tspan>
+                        </text>
+                        <text id="22" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="204.839614" y="114.762802">22</tspan>
+                        </text>
+                        <text id="15" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="205.454848" y="79.841868">15</tspan>
+                        </text>
+                        <text id="8" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="207.686294" y="45.6336061">8</tspan>
+                        </text>
+                        <text id="1" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="208.54811" y="11.4253442">1</tspan>
+                        </text>
+                        <text id="30" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="256.166146" y="148.258392">30</tspan>
+                        </text>
+                        <text id="23" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="255.295541" y="114.762802">23</tspan>
+                        </text>
+                        <text id="16" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="255.932748" y="79.841868">16</tspan>
+                        </text>
+                        <text id="9" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="258.264291" y="45.6336061">9</tspan>
+                        </text>
+                        <text id="2" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="258.430306" y="11.4253442">2</tspan>
+                        </text>
+                        <text id="31" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="307.55469" y="148.258392">31</tspan>
+                        </text>
+                        <text id="24" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="305.783206" y="114.762802">24</tspan>
+                        </text>
+                        <text id="17" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="306.840335" y="79.841868">17</tspan>
+                        </text>
+                        <text id="10" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="306.540042" y="45.6336061">10</tspan>
+                        </text>
+                        <text id="3" font-family="SFUIText-Regular, SF UI Text" font-weight="normal" fill="#000000">
+                            <tspan x="308.886233" y="11.4253442">3</tspan>
+                        </text>
+                    </g>
+                    <g id="days-of-week" opacity="0.65391791" transform="translate(3.408152, 0.000000)" fill="#34485E" fill-opacity="0.536062047" font-family="SFUIText-Medium, SF UI Text" font-size="15.654791" font-weight="400" line-spacing="19.0093891">
+                        <text id="S-Copy-2">
+                            <tspan x="0.45025406" y="15.000001">S</tspan>
+                        </text>
+                        <text id="M-Copy">
+                            <tspan x="48.4397205" y="15.000001">M</tspan>
+                        </text>
+                        <text id="T-Copy-2">
+                            <tspan x="101.686287" y="15.000001">T</tspan>
+                        </text>
+                        <text id="W-Copy">
+                            <tspan x="149.044697" y="15.000001">W</tspan>
+                        </text>
+                        <text id="T-Copy">
+                            <tspan x="202.827633" y="15.000001">T</tspan>
+                        </text>
+                        <text id="F-Copy">
+                            <tspan x="253.490207" y="15.000001">F</tspan>
+                        </text>
+                        <text id="S">
+                            <tspan x="303.874292" y="15.000001">S</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <polygon id="Shape" fill="#76D9BF" transform="translate(38.907143, 40.125473) scale(-1, 1) rotate(-92.000000) translate(-38.907143, -40.125473) " points="43.507143 36.4254731 38.907143 41.0254731 34.307143 36.4254731 32.907143 37.8254731 38.907143 43.8254731 44.907143 37.8254731"></polygon>
+            <polygon id="Shape" fill="#76D9BF" transform="translate(347.907143, 40.125473) rotate(-92.000000) translate(-347.907143, -40.125473) " points="352.507143 36.4254731 347.907143 41.0254731 343.307143 36.4254731 341.907143 37.8254731 347.907143 43.8254731 353.907143 37.8254731"></polygon>
+        </g>
+        <g id="Due_date" transform="translate(32.000000, 386.000000)" fill="#9B9B9B">
+            <g id="icons8-calendar" fill-rule="nonzero">
+                <path d="M2.90909091,0 L2.90909091,0.695652174 L0,0.695652174 L0,16 L16,16 L16,0.695652174 L13.0909091,0.695652174 L13.0909091,0 L11.6363636,0 L11.6363636,0.695652174 L4.36363636,0.695652174 L4.36363636,0 L2.90909091,0 Z M1.45454545,2.08695652 L2.90909091,2.08695652 L2.90909091,2.7826087 L4.36363636,2.7826087 L4.36363636,2.08695652 L11.6363636,2.08695652 L11.6363636,2.7826087 L13.0909091,2.7826087 L13.0909091,2.08695652 L14.5454545,2.08695652 L14.5454545,3.47826087 L1.45454545,3.47826087 L1.45454545,2.08695652 Z M1.45454545,4.86956522 L14.5454545,4.86956522 L14.5454545,14.6086957 L1.45454545,14.6086957 L1.45454545,4.86956522 Z M5.81818182,6.26086957 L5.81818182,7.65217391 L7.27272727,7.65217391 L7.27272727,6.26086957 L5.81818182,6.26086957 Z M8.72727273,6.26086957 L8.72727273,7.65217391 L10.1818182,7.65217391 L10.1818182,6.26086957 L8.72727273,6.26086957 Z M11.6363636,6.26086957 L11.6363636,7.65217391 L13.0909091,7.65217391 L13.0909091,6.26086957 L11.6363636,6.26086957 Z M2.90909091,9.04347826 L2.90909091,10.4347826 L4.36363636,10.4347826 L4.36363636,9.04347826 L2.90909091,9.04347826 Z M5.81818182,9.04347826 L5.81818182,10.4347826 L7.27272727,10.4347826 L7.27272727,9.04347826 L5.81818182,9.04347826 Z M8.72727273,9.04347826 L8.72727273,10.4347826 L10.1818182,10.4347826 L10.1818182,9.04347826 L8.72727273,9.04347826 Z M11.6363636,9.04347826 L11.6363636,10.4347826 L13.0909091,10.4347826 L13.0909091,9.04347826 L11.6363636,9.04347826 Z M2.90909091,11.826087 L2.90909091,13.2173913 L4.36363636,13.2173913 L4.36363636,11.826087 L2.90909091,11.826087 Z M5.81818182,11.826087 L5.81818182,13.2173913 L7.27272727,13.2173913 L7.27272727,11.826087 L5.81818182,11.826087 Z M8.72727273,11.826087 L8.72727273,13.2173913 L10.1818182,13.2173913 L10.1818182,11.826087 L8.72727273,11.826087 Z" id="Shape"></path>
+            </g>
+            <text id="6th-December" font-family="SFUIText-Regular, SF UI Text" font-size="14" font-weight="normal">
+                <tspan x="24" y="13">6th December</tspan>
+            </text>
+        </g>
+        <g id="Delete_task" transform="translate(0.000000, 623.000000)">
+            <g id="Rectangle-5" transform="translate(187.500000, 22.000000) rotate(180.000000) translate(-187.500000, -22.000000) ">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            </g>
+            <text id="Remove-Due-Date" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" letter-spacing="-0.409999996" fill="#D0021B" fill-opacity="0.795884284">
+                <tspan x="131.216113" y="26">Remove Due Date</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

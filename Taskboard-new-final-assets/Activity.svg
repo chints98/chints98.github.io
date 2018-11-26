@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Activity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="624" width="375" height="44"></rect>
+        <filter x="-0.1%" y="-0.6%" width="100.1%" height="101.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.784313725   0 0 0 0 0.780392157   0 0 0 0 0.8  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="375" height="64"></rect>
+        <filter x="-0.1%" y="-0.4%" width="100.1%" height="101.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.698039216   0 0 0 0 0.698039216  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="293" height="172"></rect>
+    </defs>
+    <g id="Activity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="375" height="667"></rect>
+        <g id="Alternate-header" fill="#FFFFFF">
+            <g id="Center" transform="translate(150.000000, 32.000000)" font-family="SFUIText-Semibold, SF UI Text" font-size="17" font-weight="500" letter-spacing="-0.409999996">
+                <text id="New-Task">
+                    <tspan x="0.563828111" y="16">New Task</tspan>
+                </text>
+            </g>
+            <g id="Status-Bar">
+                <g id="Pin-Right" transform="translate(309.000000, 3.000000)">
+                    <path d="M37.4937128,2.5 L57.0062872,2.5 C57.8266197,2.5 58.5,3.17394722 58.5,4.00530324 L58.5,10.4946968 C58.5,11.3319784 57.831242,12 57.0062872,12 L37.4937128,12 C36.6733803,12 36,11.3260528 36,10.4946968 L36,4.00530324 C36,3.16802155 36.668758,2.5 37.4937128,2.5 Z M59,5.5 L59.75,5.5 C60.1671014,5.5 60.5,5.83232111 60.5,6.24225998 L60.5,8.25774002 C60.5,8.66440529 60.1642136,9 59.75,9 L59,9 L59,5.5 Z M37.5081524,3 C36.9513652,3 36.5,3.45699692 36.5,4.00844055 L36.5,10.4915594 C36.5,11.0485058 36.9490581,11.5 37.5081524,11.5 L56.9918476,11.5 C57.5486348,11.5 58,11.0430031 58,10.4915594 L58,4.00844055 C58,3.45149422 57.5509419,3 56.9918476,3 L37.5081524,3 Z M37.5067444,3.5 L56.9932556,3.5 C57.2697754,3.5 57.5,3.72031886 57.5,3.99209595 L57.5,10.5079041 C57.5,10.783628 57.2731228,11 56.9932556,11 L37.5067444,11 C37.2302246,11 37,10.7796811 37,10.5079041 L37,3.99209595 C37,3.71637201 37.2268772,3.5 37.5067444,3.5 Z" id="Battery"></path>
+                    <text id="100%" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300">
+                        <tspan x="4.93945312" y="11.5">100%</tspan>
+                    </text>
+                </g>
+                <text id="Time" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300">
+                    <tspan x="166.634766" y="14.5">9:41 AM</tspan>
+                </text>
+                <g id="Overrides/Status-Bar/Signal---White">
+                    <path d="M96.1444208,12.4385043 L94.0225391,14.5 L91.8601652,12.4053177 C92.3778594,11.8314341 93.1390073,11.4689119 93.987563,11.4689119 C94.8523616,11.4689119 95.626374,11.8454456 96.1444208,12.4385043 Z M98.3234964,10.3214425 L97.2346215,11.3793293 C96.4356305,10.518235 95.2768836,9.97668394 93.987563,9.97668394 C92.713648,9.97668394 91.567205,10.5053708 90.7692987,11.3486 L89.6792698,10.2926936 C90.7566264,9.17975893 92.2882723,8.48445596 93.987563,8.48445596 C95.7014387,8.48445596 97.2447794,9.19174563 98.3234964,10.3214425 Z M100.5,8.20687933 L99.4118698,9.26404272 C98.0538809,7.86552609 96.1260026,6.99222798 93.987563,6.99222798 C91.8628921,6.99222798 89.9460798,7.85431655 88.5895579,9.23709441 L87.5,8.18164431 C89.1355496,6.52895605 91.4375103,5.5 93.987563,5.5 C96.5505699,5.5 98.8629578,6.53943672 100.5,8.20687933 Z" id="Wi-Fi" fill-rule="evenodd"></path>
+                    <text id="Carrier" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300">
+                        <tspan x="44" y="14.5">Sketch</tspan>
+                    </text>
+                    <path d="M9.25,13 C7.73121694,13 6.5,11.7687831 6.5,10.25 C6.5,8.73121694 7.73121694,7.5 9.25,7.5 C10.7687831,7.5 12,8.73121694 12,10.25 C12,11.7687831 10.7687831,13 9.25,13 Z M16.25,13 C14.7312169,13 13.5,11.7687831 13.5,10.25 C13.5,8.73121694 14.7312169,7.5 16.25,7.5 C17.7687831,7.5 19,8.73121694 19,10.25 C19,11.7687831 17.7687831,13 16.25,13 Z M23.25,13 C21.7312169,13 20.5,11.7687831 20.5,10.25 C20.5,8.73121694 21.7312169,7.5 23.25,7.5 C24.7687831,7.5 26,8.73121694 26,10.25 C26,11.7687831 24.7687831,13 23.25,13 Z M30.25,13 C28.7312169,13 27.5,11.7687831 27.5,10.25 C27.5,8.73121694 28.7312169,7.5 30.25,7.5 C31.7687831,7.5 33,8.73121694 33,10.25 C33,11.7687831 31.7687831,13 30.25,13 Z M37.25,13 C35.7312169,13 34.5,11.7687831 34.5,10.25 C34.5,8.73121694 35.7312169,7.5 37.25,7.5 C38.7687831,7.5 40,8.73121694 40,10.25 C40,11.7687831 38.7687831,13 37.25,13 Z" id="Mobile-Signal" fill-rule="evenodd"></path>
+                </g>
+            </g>
+        </g>
+        <text id="Cancel" font-family="SFUIText-Regular, SF UI Text" font-size="17" font-weight="normal" letter-spacing="-0.2541146" fill="#FFFFFF">
+            <tspan x="9.19129888" y="48">Cancel</tspan>
+        </text>
+        <text id="This-Week" font-family="SFUIText-Semibold, SF UI Text" font-size="24" font-weight="500" letter-spacing="-0.578823447" fill="#222222">
+            <tspan x="18.2433774" y="103">This Week</tspan>
+        </text>
+        <text id="Percentage-of-tasks" font-family="SFUIText-Semibold, SF UI Text" font-size="16" font-weight="500" letter-spacing="-0.3858823" fill="#222222">
+            <tspan x="71.0171683" y="361">Percentage of tasks completed</tspan>
+        </text>
+        <text id="You’re-up-5-percent" font-family="SFUIText-Regular, SF UI Text" font-size="16" font-weight="normal" letter-spacing="-0.385882288" fill="#222222">
+            <tspan x="18" y="566">You’re up 5 percent for tasks completed </tspan>
+            <tspan x="18" y="585">this week! Remember to not take on too </tspan>
+            <tspan x="18" y="604">much at a time :)</tspan>
+        </text>
+        <g id="Rectangle">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+        </g>
+        <g id="Alternate-header">
+            <g id="Bar">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Center" transform="translate(156.000000, 32.000000)" fill="#222222" font-family="SFUIText-Semibold, SF UI Text" font-size="17" font-weight="500" letter-spacing="-0.409999996">
+                <text id="Activity">
+                    <tspan x="0.814804673" y="16">Activity</tspan>
+                </text>
+            </g>
+            <g id="Status-Bar">
+                <g id="Pin-Right" transform="translate(309.000000, 3.000000)" fill="#000000">
+                    <path d="M37.4937128,2.5 L57.0062872,2.5 C57.8266197,2.5 58.5,3.17394722 58.5,4.00530324 L58.5,10.4946968 C58.5,11.3319784 57.831242,12 57.0062872,12 L37.4937128,12 C36.6733803,12 36,11.3260528 36,10.4946968 L36,4.00530324 C36,3.16802155 36.668758,2.5 37.4937128,2.5 Z M59,5.5 L59.75,5.5 C60.1671014,5.5 60.5,5.83232111 60.5,6.24225998 L60.5,8.25774002 C60.5,8.66440529 60.1642136,9 59.75,9 L59,9 L59,5.5 Z M37.5081524,3 C36.9513652,3 36.5,3.45699692 36.5,4.00844055 L36.5,10.4915594 C36.5,11.0485058 36.9490581,11.5 37.5081524,11.5 L56.9918476,11.5 C57.5486348,11.5 58,11.0430031 58,10.4915594 L58,4.00844055 C58,3.45149422 57.5509419,3 56.9918476,3 L37.5081524,3 Z M37.5067444,3.5 L56.9932556,3.5 C57.2697754,3.5 57.5,3.72031886 57.5,3.99209595 L57.5,10.5079041 C57.5,10.783628 57.2731228,11 56.9932556,11 L37.5067444,11 C37.2302246,11 37,10.7796811 37,10.5079041 L37,3.99209595 C37,3.71637201 37.2268772,3.5 37.5067444,3.5 Z" id="Battery"></path>
+                    <text id="100%" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300">
+                        <tspan x="4.93945312" y="11.5">100%</tspan>
+                    </text>
+                </g>
+                <text id="Time" font-family="SanFranciscoText-Light, San Francisco Text" font-size="12" font-weight="300" fill="#000000">
+                    <tspan x="166.634766" y="14.5">9:41 AM</tspan>
+                </text>
+                <g id="Overrides/Status-Bar/Signal---Black" fill="#030303">
+                    <path d="M96.1444208,12.4385043 L94.0225391,14.5 L91.8601652,12.4053177 C92.3778594,11.8314341 93.1390073,11.4689119 93.987563,11.4689119 C94.8523616,11.4689119 95.626374,11.8454456 96.1444208,12.4385043 Z M98.3234964,10.3214425 L97.2346215,11.3793293 C96.4356305,10.518235 95.2768836,9.97668394 93.987563,9.97668394 C92.713648,9.97668394 91.567205,10.5053708 90.7692987,11.3486 L89.6792698,10.2926936 C90.7566264,9.17975893 92.2882723,8.48445596 93.987563,8.48445596 C95.7014387,8.48445596 97.2447794,9.19174563 98.3234964,10.3214425 Z M100.5,8.20687933 L99.4118698,9.26404272 C98.0538809,7.86552609 96.1260026,6.99222798 93.987563,6.99222798 C91.8628921,6.99222798 89.9460798,7.85431655 88.5895579,9.23709441 L87.5,8.18164431 C89.1355496,6.52895605 91.4375103,5.5 93.987563,5.5 C96.5505699,5.5 98.8629578,6.53943672 100.5,8.20687933 Z" id="Wi-Fi" fill-rule="evenodd"></path>
+                    <text id="Carrier" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal">
+                        <tspan x="44" y="14.5">Sketch</tspan>
+                    </text>
+                    <path d="M9.25,13 C7.73121694,13 6.5,11.7687831 6.5,10.25 C6.5,8.73121694 7.73121694,7.5 9.25,7.5 C10.7687831,7.5 12,8.73121694 12,10.25 C12,11.7687831 10.7687831,13 9.25,13 Z M16.25,13 C14.7312169,13 13.5,11.7687831 13.5,10.25 C13.5,8.73121694 14.7312169,7.5 16.25,7.5 C17.7687831,7.5 19,8.73121694 19,10.25 C19,11.7687831 17.7687831,13 16.25,13 Z M23.25,13 C21.7312169,13 20.5,11.7687831 20.5,10.25 C20.5,8.73121694 21.7312169,7.5 23.25,7.5 C24.7687831,7.5 26,8.73121694 26,10.25 C26,11.7687831 24.7687831,13 23.25,13 Z M30.25,13 C28.7312169,13 27.5,11.7687831 27.5,10.25 C27.5,8.73121694 28.7312169,7.5 30.25,7.5 C31.7687831,7.5 33,8.73121694 33,10.25 C33,11.7687831 31.7687831,13 30.25,13 Z M37.25,13 C35.7312169,13 34.5,11.7687831 34.5,10.25 C34.5,8.73121694 35.7312169,7.5 37.25,7.5 C38.7687831,7.5 40,8.73121694 40,10.25 C40,11.7687831 38.7687831,13 37.25,13 Z" id="Mobile-Signal" fill-rule="evenodd"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Back_to_work" transform="translate(11.000000, 31.000000)" fill="#76D9BF">
+            <text id="↳-Label" font-family="SFUIText-Regular, SF UI Text" font-size="17" font-weight="normal" line-spacing="22" letter-spacing="-0.408">
+                <tspan x="18" y="16">Home</tspan>
+            </text>
+            <path d="M9.53713491,22.5724885 L0.292151852,13.212775 C-0.0973839508,12.8187788 -0.0973839508,12.1822446 0.292151852,11.787225 L9.53713491,2.42751151 C10.0994648,1.85749616 11.0143745,1.85749616 11.5777032,2.42751151 C12.1400331,2.99752686 12.1400331,3.92265052 11.5777032,4.49266587 L3.66912762,12.5005117 L11.5777032,20.5063108 C12.1400331,21.0773495 12.1400331,22.0024731 11.5777032,22.5724885 C11.0143745,23.1425038 10.0994648,23.1425038 9.53713491,22.5724885" id="Chevron"></path>
+        </g>
+        <g id="Doughnut-3" transform="translate(120.000000, 390.000000)">
+            <path d="M60,120 C93.1370866,120 120,93.1370866 120,60 C120,26.8629134 93.1370866,0 60,0 C26.8629134,0 0,26.8629134 0,60 C0,93.1370866 26.8629134,120 60,120 Z" id="Oval-3"></path>
+            <path d="M115,59.5 C115,28.8481949 90.1518051,4 59.5,4 C28.8481949,4 4,28.8481949 4,59.5 C4,90.1518051 28.8481949,115 59.5,115" id="Oval-3" stroke="#76D9BF" stroke-width="10" stroke-linecap="round"></path>
+            <text id="75%" font-family="SFUIText-Semibold, SF UI Text" font-size="24" font-weight="500" letter-spacing="-0.5788234" fill="#222222">
+                <tspan x="36.335032" y="66">75%</tspan>
+            </text>
+        </g>
+        <g id="Bar-graph" transform="translate(36.500000, 131.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <g id="Rectangle-1"></g>
+            <rect id="Rectangle-4-copy-5" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" x="11" y="93" width="22" height="79"></rect>
+            <rect id="Rectangle-4" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" x="49" y="13" width="22" height="159"></rect>
+            <rect id="Rectangle-4-copy-2" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" x="87" y="34" width="22" height="138"></rect>
+            <rect id="Rectangle-4-copy-3" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" x="125" y="103" width="22" height="69"></rect>
+            <rect id="Rectangle-4-copy-4" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" x="163" y="58" width="22" height="114"></rect>
+            <rect id="Rectangle-4-copy-6" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" transform="translate(212.000000, 128.500000) scale(-1, 1) translate(-212.000000, -128.500000) " x="201" y="85" width="22" height="87"></rect>
+            <rect id="Rectangle-4-copy" fill="#76D9BF" style="mix-blend-mode: multiply;" mask="url(#mask-6)" transform="translate(250.000000, 96.500000) scale(-1, 1) translate(-250.000000, -96.500000) " x="239" y="21" width="22" height="151"></rect>
+            <polyline id="Rectangle-1" stroke="#576269" points="0 0 0 172 292 172"></polyline>
+        </g>
+        <text id="M" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="51.1722242" y="322">M</tspan>
+        </text>
+        <text id="0" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="20.0940992" y="306">0</tspan>
+        </text>
+        <text id="1" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="20.9261304" y="279">1</tspan>
+        </text>
+        <text id="2" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="18.8440992" y="252">2</tspan>
+        </text>
+        <text id="3" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="18.6526929" y="225">3</tspan>
+        </text>
+        <text id="4" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="18.0120679" y="198">4</tspan>
+        </text>
+        <text id="5" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="18.7112867" y="171">5</tspan>
+        </text>
+        <text id="6" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="18.0589429" y="144">6</tspan>
+        </text>
+        <text id="T" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="90.6448804" y="322">T</tspan>
+        </text>
+        <text id="W" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="125.92613" y="322">W</tspan>
+        </text>
+        <text id="Th" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="161.969448" y="322">Th</tspan>
+        </text>
+        <text id="F" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="203.137068" y="322">F</tspan>
+        </text>
+        <text id="Sa" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="238.867886" y="322">Sa</tspan>
+        </text>
+        <text id="S" font-family="SFUIText-Medium, SF UI Text" font-size="16" font-weight="400" letter-spacing="-0.578823388" fill="#222222">
+            <tspan x="282.08238" y="322">S</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Work-visual-Final@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="64"></rect>
+        <filter x="-0.1%" y="-0.4%" width="100.1%" height="101.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.698039216   0 0 0 0 0.698039216  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="375" height="64"></rect>
+        <filter x="-0.1%" y="-0.4%" width="100.1%" height="101.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.698039216   0 0 0 0 0.698039216  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-13" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="0" y="0" width="100" height="53" rx="5"></rect>
+        <filter x="-3.5%" y="-4.7%" width="107.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-19" x="0" y="0" width="375" height="49"></rect>
+        <filter x="-0.1%" y="-0.5%" width="100.1%" height="101.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.698039216   0 0 0 0 0.698039216   0 0 0 0 0.698039216  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Work-visual-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F2F2F2" x="0" y="0" width="375" height="667"></rect>
+        <g id="Bars/Navigation/Navigation-Bar" transform="translate(1.000000, 1.000000)">
+            <g id="Bar">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.9" fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Overrides/Navigation-Bar/Left/Action-Glyphs" transform="translate(0.000000, 20.000000)"></g>
+            <g id="Bars/Status/Black" fill="#030303">
+                <g id="Pin-Right" stroke-width="1" fill-rule="evenodd" transform="translate(309.000000, 3.000000)">
+                    <path d="M37.4937128,2.5 L57.0062872,2.5 C57.8266197,2.5 58.5,3.17394722 58.5,4.00530324 L58.5,10.4946968 C58.5,11.3319784 57.831242,12 57.0062872,12 L37.4937128,12 C36.6733803,12 36,11.3260528 36,10.4946968 L36,4.00530324 C36,3.16802155 36.668758,2.5 37.4937128,2.5 Z M59,5.5 L59.75,5.5 C60.1671014,5.5 60.5,5.83232111 60.5,6.24225998 L60.5,8.25774002 C60.5,8.66440529 60.1642136,9 59.75,9 L59,9 L59,5.5 Z M37.5081524,3 C36.9513652,3 36.5,3.45699692 36.5,4.00844055 L36.5,10.4915594 C36.5,11.0485058 36.9490581,11.5 37.5081524,11.5 L56.9918476,11.5 C57.5486348,11.5 58,11.0430031 58,10.4915594 L58,4.00844055 C58,3.45149422 57.5509419,3 56.9918476,3 L37.5081524,3 Z M37.5067444,3.5 L56.9932556,3.5 C57.2697754,3.5 57.5,3.72031886 57.5,3.99209595 L57.5,10.5079041 C57.5,10.783628 57.2731228,11 56.9932556,11 L37.5067444,11 C37.2302246,11 37,10.7796811 37,10.5079041 L37,3.99209595 C37,3.71637201 37.2268772,3.5 37.5067444,3.5 Z" id="Battery"></path>
+                    <text id="100%" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal">
+                        <tspan x="2.85351562" y="11.5">100%</tspan>
+                    </text>
+                </g>
+                <text id="Time" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500">
+                    <tspan x="163.195312" y="14.5">9:41 AM</tspan>
+                </text>
+                <g id="Overrides/Status-Bar/Signal---Black">
+                    <path d="M96.1444208,12.4385043 L94.0225391,14.5 L91.8601652,12.4053177 C92.3778594,11.8314341 93.1390073,11.4689119 93.987563,11.4689119 C94.8523616,11.4689119 95.626374,11.8454456 96.1444208,12.4385043 Z M98.3234964,10.3214425 L97.2346215,11.3793293 C96.4356305,10.518235 95.2768836,9.97668394 93.987563,9.97668394 C92.713648,9.97668394 91.567205,10.5053708 90.7692987,11.3486 L89.6792698,10.2926936 C90.7566264,9.17975893 92.2882723,8.48445596 93.987563,8.48445596 C95.7014387,8.48445596 97.2447794,9.19174563 98.3234964,10.3214425 Z M100.5,8.20687933 L99.4118698,9.26404272 C98.0538809,7.86552609 96.1260026,6.99222798 93.987563,6.99222798 C91.8628921,6.99222798 89.9460798,7.85431655 88.5895579,9.23709441 L87.5,8.18164431 C89.1355496,6.52895605 91.4375103,5.5 93.987563,5.5 C96.5505699,5.5 98.8629578,6.53943672 100.5,8.20687933 Z" id="Wi-Fi" fill-rule="evenodd"></path>
+                    <text id="Carrier" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal">
+                        <tspan x="44" y="14.5">Sketch</tspan>
+                    </text>
+                    <path d="M9.25,13 C7.73121694,13 6.5,11.7687831 6.5,10.25 C6.5,8.73121694 7.73121694,7.5 9.25,7.5 C10.7687831,7.5 12,8.73121694 12,10.25 C12,11.7687831 10.7687831,13 9.25,13 Z M16.25,13 C14.7312169,13 13.5,11.7687831 13.5,10.25 C13.5,8.73121694 14.7312169,7.5 16.25,7.5 C17.7687831,7.5 19,8.73121694 19,10.25 C19,11.7687831 17.7687831,13 16.25,13 Z M23.25,13 C21.7312169,13 20.5,11.7687831 20.5,10.25 C20.5,8.73121694 21.7312169,7.5 23.25,7.5 C24.7687831,7.5 26,8.73121694 26,10.25 C26,11.7687831 24.7687831,13 23.25,13 Z M30.25,13 C28.7312169,13 27.5,11.7687831 27.5,10.25 C27.5,8.73121694 28.7312169,7.5 30.25,7.5 C31.7687831,7.5 33,8.73121694 33,10.25 C33,11.7687831 31.7687831,13 30.25,13 Z M37.25,13 C35.7312169,13 34.5,11.7687831 34.5,10.25 C34.5,8.73121694 35.7312169,7.5 37.25,7.5 C38.7687831,7.5 40,8.73121694 40,10.25 C40,11.7687831 38.7687831,13 37.25,13 Z" id="Mobile-Signal" fill-rule="evenodd"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Bars/Navigation/Navigation-Bar" transform="translate(0.000000, 1.000000)">
+            <g id="Bar">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.9" fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Overrides/Navigation-Bar/Left/Action-Glyphs" transform="translate(0.000000, 20.000000)"></g>
+            <g id="Bars/Status/Black" fill="#030303">
+                <g id="Pin-Right" stroke-width="1" fill-rule="evenodd" transform="translate(309.000000, 3.000000)">
+                    <path d="M37.4937128,2.5 L57.0062872,2.5 C57.8266197,2.5 58.5,3.17394722 58.5,4.00530324 L58.5,10.4946968 C58.5,11.3319784 57.831242,12 57.0062872,12 L37.4937128,12 C36.6733803,12 36,11.3260528 36,10.4946968 L36,4.00530324 C36,3.16802155 36.668758,2.5 37.4937128,2.5 Z M59,5.5 L59.75,5.5 C60.1671014,5.5 60.5,5.83232111 60.5,6.24225998 L60.5,8.25774002 C60.5,8.66440529 60.1642136,9 59.75,9 L59,9 L59,5.5 Z M37.5081524,3 C36.9513652,3 36.5,3.45699692 36.5,4.00844055 L36.5,10.4915594 C36.5,11.0485058 36.9490581,11.5 37.5081524,11.5 L56.9918476,11.5 C57.5486348,11.5 58,11.0430031 58,10.4915594 L58,4.00844055 C58,3.45149422 57.5509419,3 56.9918476,3 L37.5081524,3 Z M37.5067444,3.5 L56.9932556,3.5 C57.2697754,3.5 57.5,3.72031886 57.5,3.99209595 L57.5,10.5079041 C57.5,10.783628 57.2731228,11 56.9932556,11 L37.5067444,11 C37.2302246,11 37,10.7796811 37,10.5079041 L37,3.99209595 C37,3.71637201 37.2268772,3.5 37.5067444,3.5 Z" id="Battery"></path>
+                    <text id="100%" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal">
+                        <tspan x="2.85351562" y="11.5">100%</tspan>
+                    </text>
+                </g>
+                <text id="Time" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500">
+                    <tspan x="163.195312" y="14.5">9:41 AM</tspan>
+                </text>
+                <g id="Overrides/Status-Bar/Signal---Black">
+                    <path d="M96.1444208,12.4385043 L94.0225391,14.5 L91.8601652,12.4053177 C92.3778594,11.8314341 93.1390073,11.4689119 93.987563,11.4689119 C94.8523616,11.4689119 95.626374,11.8454456 96.1444208,12.4385043 Z M98.3234964,10.3214425 L97.2346215,11.3793293 C96.4356305,10.518235 95.2768836,9.97668394 93.987563,9.97668394 C92.713648,9.97668394 91.567205,10.5053708 90.7692987,11.3486 L89.6792698,10.2926936 C90.7566264,9.17975893 92.2882723,8.48445596 93.987563,8.48445596 C95.7014387,8.48445596 97.2447794,9.19174563 98.3234964,10.3214425 Z M100.5,8.20687933 L99.4118698,9.26404272 C98.0538809,7.86552609 96.1260026,6.99222798 93.987563,6.99222798 C91.8628921,6.99222798 89.9460798,7.85431655 88.5895579,9.23709441 L87.5,8.18164431 C89.1355496,6.52895605 91.4375103,5.5 93.987563,5.5 C96.5505699,5.5 98.8629578,6.53943672 100.5,8.20687933 Z" id="Wi-Fi" fill-rule="evenodd"></path>
+                    <text id="Carrier" font-family="SFUIText-Regular, SF UI Text" font-size="12" font-weight="normal">
+                        <tspan x="44" y="14.5">Sketch</tspan>
+                    </text>
+                    <path d="M9.25,13 C7.73121694,13 6.5,11.7687831 6.5,10.25 C6.5,8.73121694 7.73121694,7.5 9.25,7.5 C10.7687831,7.5 12,8.73121694 12,10.25 C12,11.7687831 10.7687831,13 9.25,13 Z M16.25,13 C14.7312169,13 13.5,11.7687831 13.5,10.25 C13.5,8.73121694 14.7312169,7.5 16.25,7.5 C17.7687831,7.5 19,8.73121694 19,10.25 C19,11.7687831 17.7687831,13 16.25,13 Z M23.25,13 C21.7312169,13 20.5,11.7687831 20.5,10.25 C20.5,8.73121694 21.7312169,7.5 23.25,7.5 C24.7687831,7.5 26,8.73121694 26,10.25 C26,11.7687831 24.7687831,13 23.25,13 Z M30.25,13 C28.7312169,13 27.5,11.7687831 27.5,10.25 C27.5,8.73121694 28.7312169,7.5 30.25,7.5 C31.7687831,7.5 33,8.73121694 33,10.25 C33,11.7687831 31.7687831,13 30.25,13 Z M37.25,13 C35.7312169,13 34.5,11.7687831 34.5,10.25 C34.5,8.73121694 35.7312169,7.5 37.25,7.5 C38.7687831,7.5 40,8.73121694 40,10.25 C40,11.7687831 38.7687831,13 37.25,13 Z" id="Mobile-Signal" fill-rule="evenodd"></path>
+                </g>
+            </g>
+        </g>
+        <rect id="Rectangle-2" fill="#76D9BF" x="0" y="65" width="375" height="53"></rect>
+        <g id="Clock-icon" transform="translate(178.000000, 73.000000)" stroke="#F9F9F9">
+            <circle id="Oval-3" cx="9.5" cy="9.5" r="9.5"></circle>
+            <path d="M9.5,3.5 L9.5,9.5" id="Line-5" stroke-linecap="square"></path>
+            <path d="M9.5,9.5 L14.5,12.5" id="Line-6" stroke-linecap="square"></path>
+        </g>
+        <g id="To-do-icon" transform="translate(35.000000, 81.000000)" fill="#F9F9F9">
+            <circle id="Oval-2" cx="2.5" cy="2.5" r="2.5"></circle>
+            <circle id="Oval-2" cx="19.5" cy="2.5" r="2.5"></circle>
+            <circle id="Oval-2" cx="36.5" cy="2.5" r="2.5"></circle>
+        </g>
+        <text id="Work" font-family="SFUIText-Semibold, SF UI Text" font-size="17" font-weight="500" letter-spacing="-0.409999996" fill="#222222">
+            <tspan x="166.242119" y="48">Work</tspan>
+        </text>
+        <polygon id="Shape" fill="#F9F9F9" points="317.6 85.6 313.4 81.4 312 82.8 317.6 88.4 329.6 76.4 328.2 75"></polygon>
+        <g id="Back_home" transform="translate(14.000000, 33.000000)" fill="#76D9BF">
+            <polygon id="Back-Chevron" points="0 10.5 10.5 0 12.5 2 4 10.5 12.5 19 10.5 21"></polygon>
+        </g>
+        <text id="In-progress" font-family="SFUIText-Medium, SF UI Text" font-size="12" font-weight="400" letter-spacing="-0.179375" fill="#F9F9F9">
+            <tspan x="155.867422" y="107">In progress</tspan>
+        </text>
+        <text id="To-do" font-family="SFUIText-Medium, SF UI Text" font-size="12" font-weight="400" letter-spacing="-0.179375" fill="#F9F9F9">
+            <tspan x="37.2189453" y="107">To-do</tspan>
+        </text>
+        <text id="Done" font-family="SFUIText-Medium, SF UI Text" font-size="12" font-weight="400" letter-spacing="-0.179375" fill="#F9F9F9">
+            <tspan x="304.700547" y="107">Done</tspan>
+        </text>
+        <g id="Group-2" transform="translate(8.000000, 134.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <text id="5-days" font-family="SFUIText-Semibold, SF UI Text" font-size="9" font-weight="500" fill="#4A4A4A">
+                <tspan x="8" y="43">5 days</tspan>
+            </text>
+            <text id="English-paper-draft" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">English paper </tspan>
+                <tspan x="8" y="26">draft and review</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500" fill="#7ED321">
+                <tspan x="88" y="45">!</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(8.000000, 195.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+            <text id="Fri,-Aug-25" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#4A4A4A">
+                <tspan x="8" y="43">Fri, Aug 25</tspan>
+            </text>
+            <text id="English-paper-draft" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">English paper </tspan>
+                <tspan x="8" y="26">draft and review</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500" fill="#F5A623">
+                <tspan x="86" y="45">!</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(138.000000, 134.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+            </g>
+            <text id="Sat,-Sep-21" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#4A4A4A">
+                <tspan x="8" y="43">Sat, Sep 21</tspan>
+            </text>
+            <text id="English-paper-draft" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">English paper </tspan>
+                <tspan x="8" y="26">draft and review</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500" fill="#D0021B" fill-opacity="0.6">
+                <tspan x="86" y="45">!</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(138.000000, 195.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+            </g>
+            <text id="Today" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#4A4A4A">
+                <tspan x="8" y="43">Today</tspan>
+            </text>
+            <text id="English-paper-draft" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">English paper </tspan>
+                <tspan x="8" y="26">draft and review</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500" fill="#D0021B" fill-opacity="0.6">
+                <tspan x="86" y="45"> !</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(8.000000, 256.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+            </g>
+            <text id="Tue,-Aug-13" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#4A4A4A">
+                <tspan x="8" y="43">Tue, Aug 13</tspan>
+            </text>
+            <text id="CSE-103-Videos" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">CSE 103 Videos</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Medium, SF UI Text" font-size="12" font-weight="400" fill="#F5A623">
+                <tspan x="86" y="45"> </tspan>
+                <tspan x="89.28125" y="45" font-family="SFUIText-Semibold, SF UI Text" font-weight="500">!</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(271.000000, 134.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+            </g>
+            <text id="5-days" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#4A4A4A">
+                <tspan x="8" y="43">5 days</tspan>
+            </text>
+            <text id="English-paper-draft" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">English paper </tspan>
+                <tspan x="8" y="26">draft and review</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500" fill="#D0021B" fill-opacity="0.6">
+                <tspan x="86" y="45">!</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(272.000000, 195.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+            </g>
+            <text id="Sat,-Sep-28" font-family="SFUIText-Medium, SF UI Text" font-size="9" font-weight="400" fill="#4A4A4A">
+                <tspan x="8" y="43">Sat, Sep 28</tspan>
+            </text>
+            <text id="Start-YouTube-channe" font-family="SFUIText-Medium, SF UI Text" font-size="10" font-weight="400" fill="#222222">
+                <tspan x="8" y="14">Start YouTube </tspan>
+                <tspan x="8" y="26">channel</tspan>
+            </text>
+            <text id="!" font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500" fill="#7ED321">
+                <tspan x="86" y="45">!</tspan>
+            </text>
+        </g>
+        <g id="Tab_bar" transform="translate(0.000000, 617.000000)">
+            <g id="Bars/Tab-Bar/3-Items" transform="translate(0.000000, 1.000000)">
+                <g id="Bar">
+                    <use fill-opacity="0.9" fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                </g>
+                <g id="Overrides/Tab-Bar/Item" transform="translate(163.500000, 0.000000)" font-family="SFUIText-Regular, SF UI Text" font-size="10" font-weight="normal" letter-spacing="0.119999997">
+                    <text id="Label"></text>
+                </g>
+            </g>
+            <g id="Add_Button" transform="translate(171.500000, 9.000000)">
+                <circle id="Oval" fill="#76D9BF" cx="16" cy="16" r="16"></circle>
+                <g id="Plus" transform="translate(10.666667, 10.666667)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="2">
+                    <path d="M0,5.33333333 L10.6666667,5.33333333" id="Line-3"></path>
+                    <path d="M5.33333333,-7.40148683e-17 L5.33333333,10.6666667" id="Line-2"></path>
+                </g>
+            </g>
+            <g id="Overrides/Tab-Bar/Item" transform="translate(288.000000, 0.000000)" font-family="SFUIText-Regular, SF UI Text" font-size="10" font-weight="normal" letter-spacing="0.119999997">
+                <text id="Label"></text>
+            </g>
+            <g id="share" transform="translate(53.000000, 15.000000)" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M0,10 L0,18 C0,19.1045695 0.8954305,20 2,20 L14,20 C15.1045695,20 16,19.1045695 16,18 L16,10" id="Shape"></path>
+                <polyline id="Shape" points="12 4 8 0 4 4"></polyline>
+                <path d="M8,0 L8,13" id="Shape"></path>
+            </g>
+            <g id="edit" transform="translate(302.000000, 15.000000)" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M18,12.66 L18,18 C18,19.1045695 17.1045695,20 16,20 L2,20 C0.8954305,20 0,19.1045695 0,18 L0,4 C-2.22044605e-16,2.8954305 0.8954305,2 2,2 L7.34,2" id="Shape"></path>
+                <polygon id="Shape" points="16 0 20 4 10 14 6 14 6 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
