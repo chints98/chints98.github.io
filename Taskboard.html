@@ -104,6 +104,10 @@
         <p class="project-content">After doing some informal user research at work and with friends in terms of their use for daily to do lists, they too felt that they were unable to map progress and adapt their tasks accordingly. In fact, one of my best friends even said that
           to-do lists impeded his productivity after his tasks build up overtime, with other tasks being pushed down or neglected.</p>
 
+          <p class="project-content">To provide some cursory data, 12 out of the 15 people I interviewed felt that using a daily to-do list ended up being a chore instead of aiding productivity.
+</p>
+
+
         <p class="project-content">After this informal audit, there were two key problems that stood out.</p>
 
         <p class="project-content" style="font-weight: bolder;">People are unable to visualize and priorotize their to-do lists.</p>
@@ -137,7 +141,7 @@
 
 
 
-                <p class="project-content">I took a leaf out of Google Venture’s book, by using some aspects of the HEART framework to ask questions that would ultimately define the product’s success.</p>
+                <p class="project-content">I also took a leaf out of Google Venture’s book, by using some aspects of the HEART framework to ask questions that would ultimately define the product’s success.</p>
 
 
 
@@ -192,8 +196,8 @@
                 <p class="project-content">Solution A represents a progress bar layout along with each task, but I quickly realized that the solution was not feasible from a usability standpoint (how does the user know their exact progress ahead of time?)</p>
                 <p class="project-content"> I then iterated onto Solution B, which represents a linear visualization where tasks are categorized by three points of progess, but there is still cognitive overhead for the user in edge case situations (such as a larger build up for
                   tasks in a certain section).</p>
-                <p class="project-content">Solution C takes inspiration from the Kanban board, which I utilized in my internship last summer. Asking my PM's, they stated that it helped them prioritize their tasks and keep workflows focused. I tested out this exploration with people
-                  outside of work, and the feedback was positive, many saying they would prefer such a method.</p>
+                <p class="project-content">Solution C takes inspiration from the Kanban board, which I utilized in my internship last summer. I tested out this exploration with people outside of work, and the feedback was positive, many saying they would prefer such a method.
+.</p>
 
                 <!-- Helps give a bird's eye overview of tasks and lets users map progress in their minds -->
 
@@ -206,8 +210,7 @@
 
                 <p class="project-subheading">Low Level Design decisions</p>
 
-                <p class="project-content">After picking the Kanban board solution though, a very interesting case arose. Using cards, how can we communicate relevance between all these cards? Imagine if the whole page was filled with cards in one category (for example, to-do).
-                  Information still needed to be presented in a way that helps user visualize and prioritize tasks easily. So an important question which arose was</p>
+                <p class="project-content">After picking the Kanban board solution though, a very interesting case arose.</p>
 
                 <p class="project-emphasis">How to represent priority in a simple, yet effective way?</p>
 
@@ -216,6 +219,13 @@
                 <p class="project-emphasis">Creating a new task</p>
 
                 <p class="project-content">The creation of a new task should take minimal effort, while also being highly discoverable, shown by the add button in the middle of the tab-bar, conforming to iOS human interface guidelines, while still surfacing the key interaction</p>
+
+                <div class="row">
+                  <div class="twelve columns">
+                    <img class="u-max-full-width"  src="Taskboard-new-final-assets/New-Final-screens/Inbox-visual-Final@2x.png" style="max-height: 450px; margin-left: 30%;" />
+                    <p class="image-caption">Inbox</p>
+                  </div>
+                </div>
 
 
 
@@ -245,7 +255,7 @@
 
                 <div class="row">
                   <div class="twelve columns">
-                    <img class="u-max-full-width"  src="Taskboard-new-final-assets/Add-task-1@2x.png" style="max-height: 450px; margin-left: 30%;" />
+                    <img class="u-max-full-width"  src="Taskboard-new-final-assets/New-Final-screens/Add-task-1@2x.png" style="max-height: 450px; margin-left: 30%;" />
                     <p class="image-caption">Final interaction for creating a task</p>
                   </div>
                 </div>
@@ -259,7 +269,7 @@
                 <div class="row">
                   <div class="twelve columns ">
                     <video controls muted style="max-height: 520px; max-width: 600px;">
-              <source src="Taskboard-new-final-assets/Add-task-final.mov">
+              <source src="Taskboard-new-final-assets/Taskboard-final-add-interaction.mov">
             </video>
                     <p class="image-caption">Interaction for adding a task, optimizing for speed.</p>
                   </div>
@@ -303,9 +313,6 @@
                 </div>
 
 
-                <p class="project-content">I also tried to reduce visual dissonance on the card, reducing the size of the priority marker so it'd scale better, and changing the due date color to a muted gray, which served as an understated reminder to the user.</p>
-
-
 
                 <p class="project-content">However, this lead to some problems in terms of the priority's relevance. During testing, users were not exactly aware over what a green dot or a red dot represented. This was also inconsistent with the priority tags I used in a previous
                   exploration for adding a task.</p>
@@ -332,7 +339,7 @@
 
                 <div class="row">
                   <div class="twelve columns">
-                    <img class="u-max-full-width"  src="Taskboard-new-final-assets/Home.svg" style="max-height: 500px; margin-left: 30%; box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.05);" />
+                    <img class="u-max-full-width"  src="Taskboard-new-final-assets/New-Final-screens/Home.png" style="max-height: 500px; margin-left: 30%; box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.05);" />
                     <p class="image-caption">App's entry point</p>
                   </div>
                 </div>
@@ -343,7 +350,7 @@
 
                 <p class="project-content">In this page here, the red indicator shows a task that is due in one day, or the day of — drawing attention immediately and driving people to get stuff done.</p>
 
-                <p class="project-content">The number in grey, meanwhile, is the number of tasks left in the to-do column- the user being able to easily view the number of tasks left to start at a glance.</p>
+                <p class="project-content">The number in grey, meanwhile, is representative the number of tasks left in the to-do column.</p>
 
 
 
@@ -354,20 +361,21 @@
                 <div class="row">
                   <div class="six columns">
                     <video controls muted style="max-height: 520px; max-width: 600px;">
-              <source src="Taskboard-new-final-assets/Entry-point-interaction-final.mov">
+              <source src="Taskboard-new-final-assets/Taskboard-activity-interaction.mov">
             </video>
                     <p class="image-caption">Entry point interaction</p>
                   </div>
                 </div>
 
-                <p class="project-emphasis">Using gamification to humanize task management and motivate users</p>
-
                 <p class="project-content">The indicators surface meaningful content and drives the user to complete tasks, serving as a subtle reminder while also giving an overview of tasks left without going into a specific list.</p>
+
+
+                <p class="project-emphasis">Using gamification to humanize task management</p>
+
 
                 <p class="project-content">Another area I wanted to explore, was to foster good habits in terms of setting goals and following through with them.</p>
                 <p class="project-content">Whilst the indicators provide contextual information to users in terms of what tasks are due, and what's on the to-do list, how can we encourage users to set measurable goals and keep them motivated?</p>
 
-                <!-- Gamification picture here (DONE)-->
 
                 <div class="row">
                   <div class="twelve columns">
@@ -393,7 +401,7 @@
                 <div class="row">
                   <div class="twelve columns">
                     <video controls muted style="max-height: 520px; max-width: 600px;">
-                <source src="Taskboard-new-final-assets/Taskboard-final-feedback-interaction.mov">
+                <source src="Taskboard-new-final-assets/Taskboard-swipe-interaction.mov">
               </video>
                     <p class="image-caption">Interaction for moving tasks on to the next stage, providing positive feedback for the user for moving ahead.</p>
                   </div>
@@ -407,7 +415,7 @@
                     <img class="u-max-full-width" src="Taskboard-new-final-assets/Add-collaborators.png" />
                   </div>
                   <div class="six columns">
-                    <img class="u-max-full-width" src="Taskboard-new-final-assets/Inbox-visual-Final@2x.png">
+                    <img class="u-max-full-width" src="Taskboard-new-final-assets/New-Final-screens/Inbox-visual-Final@2x.png">
                   </div>
                   <p class="image-caption">Adding collaborators to a board and a view of the inbox board.</p>
                 </div>
