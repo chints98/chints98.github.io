@@ -125,6 +125,10 @@
           <p class="image-caption">Job story which concretizes the motivations and expected outcome of the user.</p>
         </div>
 
+        <p class="project-content">Using this information, we realized that our user's intent for this feature was to quickly view, as well as add users, escalation policies and objects to different incident management teams, based on the
+          parent team's domain expertise which allows administrators to triage incident response.</p>
+
+
 
         <p class="project-content">Currently, team managers or administrators need to go to a team's specific sub teams page to view the relevant objects and user information, denying them a high level view of the information from the parent team itself. </p>
 
@@ -157,17 +161,11 @@
 
 
 
-        <p class="project-content">Taking my findings from above, I strived to frame the problems using the “How Might We” method, forcing me to adjust the problem space into an interesting area to explore.
+        <p class="project-content">Taking my findings from above, I strived to frame the problems using the “How Might We” method, which gave us a higher level goal to achieve with our design solution.
           <p>
 
             <ul>
-              <li class="project-content" style="font-weight: bolder;">How might we surface relevant information at a high level for admins and team managers?
-
-              </li>
-              <li class="project-content" style="font-weight: bolder;">How might we better communicate the various team hierarchies involved within advanced permissions?
-
-              </li>
-              <li class="project-content" style="font-weight: bolder;">How might we organize this information to avoid confusion?
+              <li class="project-content" style="font-weight: bolder;">How might we surface relevant information at a high level for admins and team managers so that they can make incident management decisions with confidence?
 
               </li>
             </ul>
@@ -189,7 +187,7 @@
 
             <p class="project-content">One of the main objectives of the design was to provide our user with a high level view of all the team related information and objects they could interact with.</p>
 
-            <p class="project-content">I explored a few solutions below, where I go in depth about the tradeoffs of each one, and presents which one we went ahead with.</p>
+            <p class="project-content">To this end, I made explorations that would hopefully aid us in achieving this goal.</p>
 
 
             <div class="row">
@@ -243,14 +241,15 @@
 
 
 
+
+
             <div class="row">
               <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Data_table_a.png"></div>
               <!-- Put refined sketch here-->
               <p class="image-caption">Data table A</p>
             </div>
 
-            <p class="project-content">Solution A — While this works well for a singular user on a team, and they might have a defined role. Also, we must consider the case where a user could be part of a subteam within a subteam (nested subteams), which would cause clutter and
-              information density in the table interface, which then increases cognitive load for the admin / team manager</p>
+            <p class="project-content">Solution A — While this works well for a singular user on a team, they might have a defined role. Also, we must consider the case where a user could be part of a subteam within a subteam (nested subteams). Was the granular nature of the information necessary?</p>
 
 
 
@@ -262,9 +261,7 @@
             </div>
 
 
-            <p class="project-content">Solution B — creates clear separation between a subteam and a specific role. A user can very well be in different teams in different roles. Scales better when a user is part of nested subteams, for example Peyton Manning, who is part of apl1,
-              and the nested subteam apl1-immeadiate
-            </p>
+            <p class="project-content">Solution B — creates clear separation between a subteam and a specific role. Makes logical sense from an administrator standpoint, as it is even more explicit what user or object is in a subteam, guiding the user in their main intent to select and view based on their subteam-based role, while being more scalable.</p>
 
 
 
@@ -275,10 +272,10 @@
             </div>
 
             <p class="project-content">Solution C — View users’ base roles along with team roles, but does this scale well with other objects relevant to subteams?</p>
-            <p class="project-content">Logical break, does this fit the users mental model when looking at specific roles? Base vs. team. Also, scalability and consistency issues arise when looking at other non-user objects.
+            <p class="project-content">Logical break, does this fit the users mental model when looking at specific roles? This would lead to issues with consistency and scalability later on.
             </p>
 
-            <p class="project-content">Solution B for our data tables fit best as it was highly scalable, and surfaces object data and heirarchies in a way that is unobtrusive to the user, letting them focus on managing incident response more efficiently.</p>
+            <p class="project-content">We went with Solution B for our data tables as it was highly scalable, and surfaces object data and heirarchies in a way that is unobtrusive to the user, letting them focus on managing incident response with confidence.</p>
 
             <p class="project-subheading">Insights from testing</p>
 
@@ -324,19 +321,11 @@
             </p>
 
 
-            <p class="project-content"> The two data tables in the “subteams and parent team” view cause cognitive overload with admins not being able to focus on two tables at the same time
+            <p class="project-content"> The two data tables in the “subteams and parent team” view cause cognitive overload with admins not being able to focus on two tables at the same time, detracting from our user's intent.
             </p>
 
             <p class="project-content">Visual dissonance with segmented controls taking up the whole screen
             </p>
-
-
-            <p class="project-content">Inconsistencies with data table - breaks down in edge case scenarios, lack of search bar in one control, but is present in the other. User selection in one data table, but not the other.</p>
-
-
-
-
-
 
 
 
@@ -371,7 +360,7 @@
             <p class="project-emphasis">Cons</p>
 
 
-            <p class="project-content">Admins were still confused when selecting multiple users, important and fixable issue. </p>
+            <p class="project-content">Admins were still confused when selecting multiple users, important and fixable issue.</p>
 
 
             <p class="project-content">Admins can only change a user's base role from the parent team feature</p>
