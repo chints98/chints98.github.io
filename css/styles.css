@@ -187,7 +187,17 @@ p{
 
 }
 
+#Mango{
+  background-color: #EF6C3C;
+}
 
+
+#Mango:hover {
+  background-color: #FAFAFA;
+  color: #EF6C3C;
+  border: 1px solid #EF6C3C;
+
+}
 
 #Study-Buddies{
   background-color: rgba(235, 87, 87, 0.8);
@@ -402,6 +412,10 @@ p{
 
 #project-PD {
   background-color: #25c151;
+}
+
+#project-Mango{
+  background-color: #EF6C3C;
 }
 
 #project-Study-Buddies {
