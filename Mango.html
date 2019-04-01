@@ -76,327 +76,301 @@
 
     </div>
     <div class="row">
-      <div class="project-banner" id="project-PD"></div>
+      <div class="project-banner" id="project-Mango"></div>
     </div>
     <div class="row">
       <div class="six columns offset-by-three case-content">
         <h1 class="case-title">Mango Health</h1>
         <h3 class="project-descriptor">UX Design; Visual Design · Winter 2019</h3>
-        <h3 class="project-descriptor">Process deck coming soon</h3>
-        <div class="project-img"></div>
+
       </div>
     </div>
     <div class="row case-content">
       <div class="eight columns offset-by-two">
 
         <div class="row">
-          <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/NAR-screenshot.png"></div>
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango-asset.png" style="max-height: 500px"></div>
         </div>
 
 
         <h3 class="project-subheading">Introduction</h3>
 
-        <p class="project-content">As a UX design intern at PagerDuty, I was tasked with designing a way to view administrator and team based data in a frictionless, usable manner.</p>
+        <p class="project-content">For my application to the KP Fellows program, the prompt seemed simple enough, yet represented an interesting challenge.</p>
 
-        <p class="project-content">I worked in close co-ordination with our team's PM, Justin, our embedded UX designer and mentor, Elliot, and two software engineers.</p>
-
-        <p class="project-content">This was my first experience working on an enterprise product with a plethora of use cases, and I thank PagerDuty for giving me the opportunity to design for such a core product area.</p>
-
-        <p class="project-content">While a lot of user research was done before I came, I synthesized our learnings into personas, and contributed to interaction design, visual design and prototyped the feature to test with users so it was shippable by mid October.</p>
+        <p class="project-emphasis">Redesign a feature of a KP Portfolio Product</p>
 
 
+        <p class="project-content">Going through KP’s impressive portfolio, I imagined daring product additions to unicorns like Airbnb and Uber, or captivating redesigns of a personal favorite, Spotify. However, I eventually settled on Mango Health.</p>
+
+        <p class="project-content">Mango Health aims to solve a pressing problem within the healthcare space, which is to help people manage their medications and form healthier habits.
+</p>
+
+        <p class="project-content">Mango Health, while humbler than some of the massive companies on the list, piqued my interest because of its mission to help people regulate their medication and live healthier lives. Some of my family members use similar apps, and it represented a pick where I didn’t know too much about the app coming in, but knew of the basic use cases.</p>
+
+
+        <p class="project-content">Disclaimer: This redesign was done without access to actual user data or user feedback from Mango Health. These would be critical considerations in a real-world project. In order to account for this, I conducted my own secondary and primary research, which gave me a reasonable foundation for the project.</p>
 
 
 
-        <h3 class="project-subheading">Understanding the problem</h3>
+
+        <h3 class="project-subheading">Who are the users?</h3>
 
 
-        <p class="project-content">Team administrators are unable to view and edit, at a high level, what users and objects are part of a parent team’s sub teams, causing confusion in the incident management process </p>
+        <p class="project-content">Mango Health’s user base exists across a vast spectrum, but after conducting testing and reading up more about who uses Mango Health, I came up with three personas to fit the different demographics that are the most represented for the product. I will be presenting the story of my redesign through the lens of these three users. </p>
 
-        <p class="project-content">Before I actually sat down and sketched anything out, I conducted an audit of the product at present, and found a few issues that was detracting from our core user goal.</p>
 
-        <p class="project-content">I also referred to previous user interview notes that had been conducted a couple months prior to starting my internship, and gained key insight into the problem space.</p>
+        <p class="project-emphasis">Joy</p>
 
-        <p class="project-content">I used the Jobs to be Done framework to understand the motivations and expected outcomes of administrators when trying to view team based data.</p>
+
 
         <div class="row">
-          <div class="twelve columns"><img class="u-max-full-width" src="images/Job-story.png"></div>
-          <!-- Put refined sketch here-->
-          <p class="image-caption">Job story which concretizes the motivations and expected outcome of the user.</p>
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango/persona-1.png" style="max-height: 500px"></div>
         </div>
 
-        <p class="project-content">Using this information, we realized that our user's intent for this feature was to quickly view, as well as add users, escalation policies and objects to different incident management teams, based on the
-          parent team's domain expertise which allows administrators to triage incident response.</p>
+        <p class="project-content" style="padding-top"> 20 year old college student.</p>
+
+        <p class="project-content">Still getting used to the idea of taking regular medication, but isn’t as serious as she should be.</p>
+
+        <p class="project-content">Has an unforgiving schedule and wants to be able to see what she needs to take quickly.</p>
+
+        <p class="project-content">Wants to establish healthy lifestyle habits.</p>
 
 
-
-        <p class="project-content">Currently, team managers or administrators need to go to a team's specific sub teams page to view the relevant objects and user information, denying them a high level view of the information from the parent team itself. </p>
-
-        <p class="project-emphasis">Why would team managers want to go to team's specific sub team pages?</p>
-
-        <p class="project-content">The main use case for this feature is for team managers and administrators to view and configure various teams, so that incident management is not an all hands process, but one which is triaged and efficient.</p>
-
-        <p class="project-content">The current workflow causes a lot of friction in the process, as for a relatively simple task, such as adding a new user to a sub team, or adding new escalation policies for both a parent team and specific sub teams. (For example, if there are
-          10 sub teams, and the team manager needed to add the same EP to 5 of those sub teams. Currently, they’d have to go on each sub team, and add it manually from there).</p>
+        <p class="project-emphasis">Prachetan</p>
 
         <div class="row">
-          <div class="six columns"><img class="u-max-full-width" src="images/PagerDuty-prev-workflow.png" style="max-height: 300px;"></div>
-          <!-- Put refined sketch here-->
-          <div class="six columns"><img class="u-max-full-width" src="images/PagerDuty-new-workflow.png"></div>
-
-          <p class="image-caption">Here's a diagram I sketched out to better understand the workflow</p>
-
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango/persona-2.png" style="max-height: 500px"></div>
         </div>
 
-        <p class="project-content" style="font-weight: bolder;">The goal here, is to simplify the workflow and reduce friction for our user for a common use case in the product.</p>
+        <p class="project-content" style="padding-top">Middle aged, working parent,</p>
 
-        <p class="project-content">The main trade off we were making here, was between sacrificing micro level specificity for a higher level view, but one we hoped would optimize for efficiency and minimize friction.</p>
+        <p class="project-content">Likes getting reminders about medication on the go.</p>
 
+        <p class="project-content">Journals his mood and eating habits to adopt a healthier perspective on life.</p>
 
-        <p class="project-content">How then, would we define success and validate whether the new workflow worked? One key metric which would be crucial for us was if there was an increase in administrators usage of the feature to add users and different EP's to other subteams, since
-        these two objects are the most commonly used in the product. We would also aim to measure churn rate and task success percentage over a period of time, which would help us validate and pinpoint potential problems in the design, and how we could iterate on it.</p>
 
+        <p class="project-emphasis">Susan</p>
 
-        <h3 class="project-subheading">Framing the problem and ideating solutions</h3>
+        <div class="row">
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango/persona-3.png" style="max-height: 250px"></div>
+        </div>
 
 
+        <p class="project-content" style="padding-top">Retired architect.</p>
 
-        <p class="project-content">Taking my findings from above, I strived to frame the problems using the “How Might We” method, which gave us a higher level goal to achieve with our design solution.
-          <p>
+        <p class="project-content">Is forgetful about what pills she has to take and when.</p>
 
-            <ul>
-              <li class="project-content" style="font-weight: bolder;">How might we surface relevant information at a high level for admins and team managers so that they can make incident management decisions with confidence?
+        <p class="project-content">Gets frustrated by her reminders app very easily.</p>
 
-              </li>
-            </ul>
 
-            <p class="project-content">I also sketched out a few ideas I had for a solution to this problem, and I will be going in depth over some of them. An interesting exploration I made was the usage of filters in a global search object, and segmented controls for surfacing
-              various team based information in a contextualized way.</p>
+        <h3 class="project-subheading">What's the problem?</h3>
 
-            <div class="row" style="padding-bottom: 20px; padding-top: 20px;">
-              <div class="six columns"><img class="u-max-full-width" style="transform: rotate(90deg); padding: 20px;" src="images/Sketch-1.JPG"></div>
-              <div class="six columns"><img class="u-max-full-width" style="transform: rotate(90deg); padding: 20px;" src="images/Sketch-2.JPG"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption" style="margin-top: 20px;"></p>
-            </div>
+        <p class="project-content">Whenever I do a redesign, I aim to look at pressing, people problems to solve rather than cosmetic redesigns that don’t add tangible value. </p>
 
+        <p class="project-content">Therefore, the first thing I did while auditing the Mango Health app was ask people (friends and family), both who have used Mango Health and new users alike, their thoughts on the app. This is to ensure that I’m not stuck in my own bubble of perspectives, but consider other people’s needs and pain points.</p>
 
-            <p class="project-subheading">Design decisions</p>
+        <p class="project-content"> Some of the questions I asked included,</p>
 
-            <p class="project-emphasis">Representing teams within a single view</p>
+        <ul>
+          <li class="project-content" style="font-weight: bolder;">How often do you use Mango Health?</li>
+          <li class="project-content" style="font-weight: bolder;">Is the app successful in helping your track your medication?</li>
+          <li class="project-content" style="font-weight: bolder;">What features of the app do you use the most?</li>
+          <li class="project-content" style="font-weight: bolder;">Do you struggle with any of the app’s features? What would you change?</li>
 
-            <p class="project-content">One of the main objectives of the design was to provide our user with a high level view of all the team related information and objects they could interact with.</p>
+        </ul>
 
-            <p class="project-content">To this end, I made explorations that would hopefully aid us in achieving this goal.</p>
+        <p class="project-content">I also conducted some short usability tests on their overall experience of using the app itself, which would help me gather design opportunities and user pain points. </p>
 
+        <p class="project-content">Mango Health’s user base exists across a vast spectrum, but after conducting testing and reading up more about who uses Mango Health, I came up with three personas to fit the different demographics that are the most represented for the product. I will be presenting the story of my redesign through the lens of these three users. </p>
 
-            <div class="row">
-              <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Sol.B.png"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption">Solution A - two separate data tables</p>
-            </div>
+        <p class="project-content">After analyzing these results, as well as personally auditing the current design, I compiled a list of some of the potential design opportunities and critical user pain points within Mango Health.</p>
 
-            <p class="project-content">For solution A, the explicit copy above the data tables show what the user is viewing at any given time.</p>
+        <p class="project-emphasis">Visual design and heirarchy</p>
 
-            <p class="project-content">However, two different data tables on a single page increases cognitive load for the user, denying them the ability to quickly focus on one particular view between parent and sub team.</p>
 
 
-            <div class="row">
-              <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Sol.C.png"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption">Solution B - using a global search navigation and advanced filters</p>
-            </div>
 
-            <p class="project-content">Solution B presents a filter based solution, with search functions for subteams, object name, and role.</p>
+        <div class="row">
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango/current-screen.png" style="max-height:500px; box-shadow: 1px 1px 3px grey"></div>
+          <!-- Put refined sketch here-->
+          <p class="image-caption">The current homepage</p>
+        </div>
 
-            <p class="project-content">This seemed like an exciting exploration, but was the information contextualized in the right way? What if the user wanted to view only parent team data? What about data only relevant to subteams? These were important considerations to make
-              which the solution didn't account for.</p>
+        <p class="project-content">A common pain point while conducting usability testing of the application centered around the visual design, and it does little to aid usability.</p>
 
+        <p class="project-content">The user needs to put in a lot of work and consume too much information in order to scan through the homepage. While the use of cards is a common visual pattern in interface design, they all seem to be fighting for attention rather than guide the user in terms of the actions they should take. Does tapping on a card take them to a particular topic? This was a question that was asked a lot during usability testing first up, and a critical problem seemed to be ambiguity for actions.</p>
 
+        <p class="project-content">Similar concerns arise for the inbox tab, which is used for general information about different medications. While it serves as a central hub for this information, the unformatted descriptions and unclear hierarchy here can confuse the user as to what the information truly means.</p>
 
-            <div class="row">
-              <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Sol.E_users_contextswitch.png"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption">Solution C - utilizing the segmented controls design pattern</p>
-            </div>
 
+        <p class="project-emphasis">Lack of personalized indication when adding medication</p>
 
 
-            <p class="project-content">Solution C, however, leveraged segmented controls as a design pattern, where users could clearly change context in terms of viewing parent team based data or subteam based data.</p>
 
-            <p class="project-content">Segmented controls are a familiar design pattern in mobile usage, also used in enterprise products from Salesforce and Service Now, and I audited their products to evaluate how they work in the enterprise ecosystem.</p>
+        <p class="project-content">A behavioral pattern I noticed was that patients usually refer to their medications by their indications, such as “Time to take my blood pressure meds!” However, when a user takes a medication, the app simply says “Dose recorded”.</p>
 
+        <p class="project-content">By personalizing the patient’s medication information and accompanying messages, however, we can increase both motivation and adherence through the principle of positive reinforcement.</p>
 
-            <p class="project-content">Segmented controls allow for quick and easy context switching, where a user is able to focus on a particular view, either the parent team or the subteams within.
-            </p>
 
-            <p class="project-content">Keeping this in mind, we advanced with solution C as the best course of action for the team view.</p>
+        <p class="project-emphasis">Task Completion</p>
 
 
+        <p class="project-content">In the current flow for completing a day’s tasks, a user has to move between four different screens before their task is recorded. In this example, users must first click on their reminder under “My Schedule”, after which they are forwarded to a list of the next week. From there, users are forwarded to the landing page for the habit/medicine selected. Finally, they click “Record Now”, for the reminder to be logged.</p>
 
-            <p class="project-emphasis">Surfacing data in an intuitive way</p>
+        <p class="project-content">This flow takes multiple steps for an action that should, in essence be simple and persistent. For all three of our users, this presents a definitive problem, as completing a task becomes an arduous process, rather than one which is gratifying and motivating.</p>
 
-            <p class="project-content">Another important design decision was to surface data to our users in a way that was scalable, yet helped users to clearly see the team heirarchies involved.</p>
 
+        <p class="project-emphasis">Schedule</p>
 
 
+        <p class="project-content">Currently, even if a user has multiple reminders throughout the day, only the upcoming reminder shows up on the screen. While feeling restrictive, it could also be detrimental to users who might not turn on notifications or only check the app periodically.</p>
 
 
 
-            <div class="row">
-              <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Data_table_a.png"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption">Data table A</p>
-            </div>
 
-            <p class="project-content">Solution A — While this works well for a singular user on a team, they might have a defined role. Also, we must consider the case where a user could be part of a subteam within a subteam (nested subteams). Was the granular nature of the information necessary?</p>
+        <p class="project-emphasis">Lack of context when taking medication</p>
 
 
+        <p class="project-content">For our users who might be new to taking medication on a regular basis, this is a major pain point, as some medication have interactions that they might not always be aware of. This is especially true for Joy and Susan’s use case.</p>
 
+        <p class="project-content">Currently, a user would have to go to the inbox or click on the specific medication to find out more about the medication’s common interactions.</p>
 
-            <div class="row">
-              <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Big_data_table_b.png"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption">Data table B</p>
-            </div>
 
 
-            <p class="project-content">Solution B — creates clear separation between a subteam and a specific role. Makes logical sense from an administrator standpoint, as it is even more explicit what user or object is in a subteam, guiding the user in their main intent to select and view based on their subteam-based role, while being more scalable.</p>
 
 
+        <p class="project-emphasis">Learning more about specific medications</p>
 
-            <div class="row">
-              <div class="twelve columns"><img class="u-max-full-width" src="images/PD-Design-Folder/Data_table_c.png"></div>
-              <!-- Put refined sketch here-->
-              <p class="image-caption">Data table C</p>
-            </div>
 
-            <p class="project-content">Solution C — View users’ base roles along with team roles, but does this scale well with other objects relevant to subteams?</p>
-            <p class="project-content">Logical break, does this fit the users mental model when looking at specific roles? This would lead to issues with consistency and scalability later on.
-            </p>
+        <div class="row">
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango/curr_inbox.jpeg" style="max-height:500px;"></div>
+          <!-- Put refined sketch here-->
+          <p class="image-caption">Current inbox view</p>
+        </div>
 
-            <p class="project-content">We went with Solution B for our data tables as it was highly scalable, surfacing both object data and heirarchies in a way that is unobtrusive and explicit to the user, letting them focus on managing incident response with confidence.</p>
 
-            <p class="project-subheading">Insights from testing</p>
+        <p class="project-content">To currently learn about a specific medication, one has to either go to the inbox (which has unformatted information galore), or the specific medication, where the detail tab only shows the instructions for the medication. To learn about its interactions however, the user goes to the alerts section, where the information is unformatted and is simply a link to another page. For a user who wants to quickly learn about a specific medication, this can serve as a hindrance to their experience.</p>
 
-            <p class="project-content">Initial user tests unraveled a few problems with our designs.</p>
 
-            <p class="project-content">Some buttons led to unexpected actions for the user, and there were inconsistencies in some of the data tables.</p>
 
-            <p class="project-content">We also discovered an interesting edge case, where a user is not supposed to add more than one user to another subteam or EP at a given time, and this lowered the task success.</p>
+        <h3 class="project-subheading">The solution</h3>
 
+        <p class="project-emphasis">Homepage</p>
 
-            <p class="project-content">Armed with these insights from testing, we iterated in two more cycles, so that we could quickly refine our current designs and present them to more users and additional stakeholders for testing.</p>
+        <!-- Image of new homepage here-->
+        <div class="row">
+          <div class="nine columns offset-by-three"><img class="u-max-full-width" src="images/Mango/Home.png" style="max-height:900px; box-shadow: 1px 1px 3px grey"></div>
+          <!-- Put refined sketch here-->
+          <p class="image-caption">Redesigned homepage</p>
+        </div>
 
 
 
-            <p class="project-subheading">Iteration</p>
+        <p class="project-content">In the redesigned homepage, I maintain the main call to action, which is to add a medicine, habit or care recipient at the top of the nav-bar, much like the previous design, as it follows iOS design patterns and is clear to the user.</p>
 
-            <p class="project-content">Iterating and prototyping in quick cycles helped us with refining our design decisions, as well as creating new explorations considering the feedback we recieved during user testing.</p>
+        <p class="project-content">I employ a card based approach, but instead of pushing cards that are fighting for attention, I decided to dedicate each card to take the full width of a screen, with larger headers emphasizing both visual consistency and clarity.</p>
 
-            <p class="project-emphasis">Iteration v1</p>
+        <p class="project-content">I surface Mango Health’s streak based information first up, as Mango Health’s original value proposition is to “gamify” healthcare, and this sort of positive reinforcement aims to motivate the user to adhere to their schedule!</p>
 
 
-            <div class="row">
-              <div class="twelve columns">
-                <video controls style="max-height: 520px;">
-                <source src="images/PD-Design-Folder/Iteration-1-prototype.mov">
-              </video>
-                <p class="image-caption">Iteration 1 flow</p>
-              </div>
-            </div>
 
-            <p class="project-emphasis">Pros</p>
+        <p class="project-content">For reminders and medicines currently on the user’s schedule to take immediately, I surface that information in the “Take Now” card, which aims to motivate the user to record their medication with a simple, yet familiar interaction of marking the checkbox. Each reminder is equipped with dosage information and medication notes, important contextual information that is especially important for users who might forget dangerous interactions or specific instructions about the medication.</p>
 
-            <p class="project-content">Segmented controls are a familiar design pattern for organizing different kinds of information.
-            </p>
+        <p class="project-content">Upcoming tasks are surfaced horizontally for the user to clearly view what the user has up next, including what time it’s coming up, so that the user has a clear idea about their schedule at a glance. A call to action to manage reminders is available from the homepage if the user wants to manage and edit specific reminders.</p>
 
+        <p class="project-content">Similarly, points are surfaced with a clear measure of progress, as well as added information for Mango Health’s raffle feature, which can act as another motivating factor for the user to adhere to their schedule!</p>
 
 
 
-            <p class="project-emphasis">Cons</p>
 
+        <p class="project-emphasis">Adding a new medication</p>
 
-            <p class="project-content">Admins were confused when selecting multiple users, but only being able to add one.
-            </p>
+        <!-- Image of flow here-->
 
+        <div class="row">
+          <div class="twelve columns"><img class="u-max-full-width" src="images/Mango/add-med-flow.png" style="box-shadow: 1px 1px 3px grey"></div>
+          <!-- Put refined sketch here-->
+          <p class="image-caption">Interaction flow for adding a medication</p>
+        </div>
 
-            <p class="project-content"> The two data tables in the “subteams and parent team” view cause cognitive overload with admins not being able to focus on two tables at the same time, detracting from our user's intent.
-            </p>
 
-            <p class="project-content">Visual dissonance with segmented controls taking up the whole screen
-            </p>
+        <p class="project-content">While Mango Health’s current flow for adding a medication is fairly easy, one aspect it lacks is personalization to each patient’s specific case. As mentioned in previous research, some patients don’t know why there are taking their meds. Although there is a note field for the added medication, is it ideal?</p>
 
+        <p class="project-content">Personalizing the patient’s medical information increases patient motivation by letting them be mindful of exactly why they might be taking a particular medication, which in turn would help their adherence.</p>
 
 
-            <p class="project-emphasis">Iteration v2</p>
 
 
+        <p class="project-emphasis">Separating My Health into My Meds and My Habits</p>
 
-            <div class="row">
-              <div class="twelve columns">
-                <video controls style="max-height: 520px;">
-                <source src="images/PD-Design-Folder/Iteration-2-prototype.mov">
-              </video>
-                <p class="image-caption">Iteration 2 flow</p>
-              </div>
-            </div>
 
-            <p class="project-emphasis">Pros</p>
+        <div class="row">
+          <div class="six columns"><img class="u-max-full-width" src="images/Mango/My-Meds.png" style="max-height:500px; box-shadow: 1px 1px 3px grey"></div>
+          <div class="six columns"><img class="u-max-full-width" src="images/Mango/My-Habits.png" style="max-height:500px; box-shadow: 1px 1px 3px grey"></div>
+          <!-- Put refined sketch here-->
+          <p class="image-caption">Separate screens for Medication and Habits</p>
+        </div>
 
-            <p class="project-content">Segmented controls iterated upon to be a contextual switcher, rather than a screen covering distraction
-            </p>
+        <p class="project-content">The decision for the split was mainly due to habits and medications being inherently different things. While medications require specific dosage information, and have a set of instructions, habits are a much more personal recording experience for the user, where they keep a log of their habits and can chart progress and continue to become healthier individuals. This is opposed to medication, where we are simply measuring adherence in this case.</p>
 
+        <p class="project-content">Inherent difference aside, it is especially important on mobile interfaces that we are fostering focus, especially in the case of Joy and Susan.</p>
 
-            <p class="project-content">Data tables clearly show team hierarchy in all scenarios, including the combined sub teams and parent team view
-            </p>
 
 
-            <p class="project-content">Search function is consistent across all segmented views
-            </p>
+        <p class="project-emphasis">Specific Medication</p>
 
 
+        <div class="row">
+          <div class="six columns"><img class="u-max-full-width" src="images/Mango/Specific-med-1.0.png" style="max-height:500px; box-shadow: 1px 1px 3px grey"></div>
+          <div class="six columns"><img class="u-max-full-width" src="images/Mango/Specific-med-2.0.png" style="max-height:500px; box-shadow: 1px 1px 3px grey"></div>
+          <p class="image-caption">Specific medication page with physical information and adherence metrics</p>
 
-            <p class="project-emphasis">Cons</p>
+          <!-- Put refined sketch here-->
+        </div>
 
+        <p class="project-content">I adopt a similar card based approach to specific medications as well, with the top card showcasing a clear call to action to take now, or edit your reminder on the nav bar. A swipe to the right showcases adherence metrics in an easy to compare, yet visual manner which aims to keep the user motivated about their meds.</p>
 
-            <p class="project-content">Admins were still confused when selecting multiple users, important and fixable issue.</p>
+        <p class="project-content">A clear instructions card provides the user with dosage information as well as when their reminder is set in an easy to access way.</p>
 
+        <p class="project-content">Inbox specific information, which was unformatted and linked to different pages, are now specific cards as well, offering contextual information to the user about the drug, and if the user wants to find out more, they can tap on the dropdown to reveal more detailed information.</p>
 
-            <p class="project-content">Admins can only change a user's base role from the parent team feature</p>
 
+        <p class="project-content">Consolidating drug based information into a central hub, creates a more persistent way for users to interact with a specific medication and learn more about it, with the different kinds of information clearly defined and easy to find.</p>
 
-            <p class="project-subheading">Final design</p>
 
-            <div class="row">
-              <div class="twelve columns">
-                <video controls style="max-height: 520px;">
-                <source src="images/PD-Design-Folder/Final-design-prototype.mov">
-              </video>
-                <p class="image-caption">Final interaction flow</p>
-              </div>
-            </div>
 
 
-            <p class="project-subheading">Impact</p>
+        <p class="project-emphasis">Visual Design</p>
 
-            <p class="project-content">Final designs validated with user testing sessions</p>
+        <!-- Image of styleguide here-->
 
-            <p class="project-content">Success metrics included increased number of clicks (by 20%) for segmented controls on Pendo (analytics tool)</p>
+        <div class="row">
+          <div class="twelve columns"><img class="u-max-full-width" src="images/Mango/styleguide-UI.png" style="box-shadow: 1px 1px 3px grey"></div>
+          <!-- Put refined sketch here-->
+          <p class="image-caption">Final visual styleguide</p>
+        </div>
 
-            <p class="project-content">13% increase of feature usage against previous design over multivariate testing. </p>
 
-            <p class="project-content">Qualitative surveys validated improvement from previous design, and pitched design to our Product Manager, adopted by the team for product roadmap </p>
 
-            <p class="project-emphasis">Estimated to ship completely by mid-October, although we have released the beta version.</p>
 
-            <p class="project-subheading">Lessons learned</p>
+        <p class="project-content">In terms of the overall visual design direction, I aimed to keep it consistent and minimal, as our target user group needs information surfaced in a way that is clear and doesn’t provide cognitive overload for the user, which was a common issue in the current design of the app. In terms of the current design of Mango Health, there were a lot of inconsistencies where font sizes, formatting, and visual spacing were concerned. Therefore, I used a concise visual styleguide, alongside an 8pt grid which aided visual consistency. A constraint I placed on myself was to not stray away from Mango Health’s branding. As an established company, I was wary of making any changes to brand assets and the logo, instead aiming to incorporate it in a simplified manner.</p>
 
-            <p class="project-content">Metrics are your ally in designing the right solution</p>
 
-            <p class="project-content">Design for the happy path first, before diving deeper into edge case scenarios</p>
+        <h3 class="project-subheading">Final Thoughts</h3>
 
-            <p class="project-content">Communication and collaboration is key</p>
+
+        <ul>
+          <li class="project-content"><a style="font-weight: 500">Constraints matter:</a> The open ended nature of this redesign was challenging to say the least, but that means that we get to set our own constraints. For my redesign, I wanted to stay true to the Mango Health brand, and make sure to not introduce any new features that would be blue sky solutions to user problems. Instead, by focusing on interaction and visual design, I was able to scope the problem space much better, which allowed me to come up with a stronger design solution</li>
+          <li class="project-content"><a style="font-weight: 500">Mango Health is onto something:</a> Mango Health’s mission to help people be more healthy, rounded individuals is a fantastic one, and there is a definitive need for a product like theirs on the market.</li>
+          <li class="project-content"><a style="font-weight: 500">There’s no substitute for teamwork:</a> I would have loved to collaborate with Mango Health designers, engineers and users to understand the potential tradeoffs involved. A lot of my designs were based on cursory research and designer assumption, rather than solid data, which would have been fantastic to leverage for this exercise.</li>
+          <li class="project-content"><a style="font-weight: 500">Embrace the uncertain:</a> To be honest, I was very apprehensive about redesigning a product from the Kleiner Perkins portfolio, because I might be stepping over previous decisions made by designers backed by data. Therefore, the best I could do to make up for the lack of data was conduct primary and secondary research that would give me a good foundation for the project.</li>
+
+        </ul>
+
+        <p class="project-content">Thank you for reading through all of that! If you have any feedback, don't hesitate to hit me up on chaitanyaprashant@gmail.com</p>
+
+
+
 
             <p class="project-content"><a class="link" href="index.html">Back to Home</a></p>
 
