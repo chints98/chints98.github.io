@@ -42,6 +42,8 @@
   <!-- JavaScript
   ___________________________________________-->
 <script src="wow.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
   <!-- Google Analytics -->
 
@@ -53,6 +55,25 @@
 
   ga('create', 'UA-105808885-1', 'auto');
   ga('send', 'pageview');
+
+</script>
+
+<script>
+    new WOW().init();
+    $(function() {
+        console.log( "ready!" );
+
+        $(window).scroll(function(){
+            $(".hero-section").css("opacity", 1 - $(window).scrollTop() / 1000);
+            if($(".hero-section").css("opacity") == 0){
+                jQuery('#hero').hide();
+            }
+            else{
+                jQuery('#hero').show();
+            }
+        });
+        
+    });
 
 </script>
 
@@ -87,7 +108,8 @@ return " ";
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="hero">
-    <div class="container wow animated fadeIn">
+    <div class="hero-section" id="hero">
+    <div class="container">
       <div class="row">
         <div class="hero-card twelve columns">
           <div class="row">
@@ -104,12 +126,11 @@ return " ";
           </div>
 
           <div class="six-columns">
-          <h2 class="hero-description"><i class="em em-wave"></i>, I'm a product designer studying CS and design at UC San Diego. I aim to craft delightful digital experiences with empathy and a high degree of craftsmanship. Currently designing a civic design platform at Protolab under the supervision of Professor Steven Dow. Previously designed at PagerDuty, Learning Equality, GE and Mobewash. Check out my work
-            below, or my resume <a class="footer-link-resume" href="Resume_final_2018-password.pdf" target="_blank">here</a>.</h2>
+          <h2 class="hero-description"><i class="em em-wave"></i>, I'm a product designer studying CS and design at UC San Diego. I aim to craft delightful digital experiences with empathy and a high degree of craftsmanship. Currently working on growth and design systems at Wizehire. Previously designed at Protolab, PagerDuty, Learning Equality, GE and Mobewash. Check out my work
+            below, or my resume <a class="resume-link hvr-underline-from-left" href="Resume-summer-19.pdf" style="color: #333333; font-size: 21px;" target="_blank">here</a>.</h2>
           </div>
 
           <div class="social-container">
-            <h2 class="hero-description">Find me online here - </h2>
             <div class="icon-container">
               <a href="http://linkedin.com/in/chaitanyaprashant" target="_blank">
                   <span class="icon"><img src="images/Linkedin.svg"></span>
@@ -128,44 +149,181 @@ return " ";
                   <span class="icon"><img src="images/github.svg"></span>
                 </a>
             </div>
-          </div>
         </div>
       </div>
     </div>
+
   </div>
+
+
+<!-- Illustration was here
+  <div class="illustration-container wow animated">
+    <img class="u-max-full-width" src="home_illustration.svg">
+
+</div>
+-->
+</div>
+
+
 
 
 <div class="top">
   <div class="container">
-    <div class="row wow animated fadeIn">
+
+
+
+    <!-- 
+  
+  
+      <div class="row">
+        <div class="twelve columns project-card" id="project-even">
+          <div class="seven columns img-container-mobile" style="float: left;">
+            <img class="u-max-full-width" src="images/PD-mock.png">
+          </div>
+          <div class="five columns" style="float: right; padding-top: 16px;">
+            <h1 class="project-name">Desinging for growth at Wizehire</h1>
+            <h3 class="project-type">Product Design internship</h3>
+            <p class="project-description">One of the projects I worked on over the summer of 2019 was to design a way to increase new user growth through a referral program within the product.
+            </p>
+            <a class="case-link" id="PD-link">
+              Coming soon!
+            </a>
+          </div>
+        </div>
+      </div>
+  
+
+      <div class="row">
+          <div class="twelve columns project-card" id="project-even">
+            <div class="seven columns img-container-mobile" style="float: left;">
+              <img class="u-max-full-width" src="images/PD-mock.png">
+            </div>
+            <div class="five columns" style="float: right; padding-top: 16px;">
+              <h1 class="project-name">Desinging for growth at Wizehire</h1>
+              <h3 class="project-type">Product Design internship</h3>
+              <p class="project-description">One of the projects I worked on over the summer of 2019 was to design a way to increase new user growth through a referral program within the product.
+              </p>
+              <a class="case-link" id="PD-link">
+                Coming soon!
+              </a>
+            </div>
+          </div>
+        </div>
+
+-->
+
+
+    <div class="row">
       <div class="twelve columns project-card" id="project-even">
         <div class="seven columns img-container-mobile" style="float: left;">
-          <img class="u-max-full-width" src="images/Mango-asset.png" style="max-height: 500px;">
+          <img class="u-max-full-width" src="images/PD-mock.png">
         </div>
-        <div class="five columns" style="float: right;">
-          <h1 class="project-name">Redesigning Mango Health</h1>
-          <div class="project-banner-alt" id="project-Mango"></div>
-          <h3 class="project-type">UX Design; Visual Design</h3>
-          <p class="project-description">A redesign of Mango Health for the KP Fellows Application. Specifically, I focused on the home page and the ways a user can stay motivated to live a healthier lifestyle.
+        <div class="five columns" style="float: right; padding-top: 16px;">
+          <h1 class="project-name">PagerDuty Teams</h1>
+          <h3 class="project-type">UX Design internship</h3>
+          <p class="project-description">I spent the summer of 2018 interning at PagerDuty, where I redesigned a feature for the core enterprise product to better represent administrative data within teams for incident management, and allow admins to make incident management decisions with more confidence.
           </p>
-          <a href="Mango.html" target="_blank">
-            <button class="btn" id="Mango">Case Study</button>
+          <a class="case-link hvr-underline-from-left" id="PD-link" href="Pagerduty.html" target="_blank">
+            Read Case Study
           </a>
         </div>
       </div>
     </div>
 
-    <div class="row wow animated fadeIn">
+
+    <div class="row">
+        <div class="twelve columns project-card" id="project-even">
+          <div class="seven columns img-container-mobile" style="float: left;">
+            <img class="u-max-full-width" src="images/Mango-mockup.png">
+          </div>
+          <div class="five columns" style="float: right; padding-top: 16px;">
+            <h1 class="project-name">Redesigning Mango Health</h1>
+            <h3 class="project-type">UX Design; Visual Design</h3>
+            <p class="project-description">A redesign of Mango Health for the KP Fellows Application. Specifically, I focused on the home page and the ways a user can stay motivated to live a healthier lifestyle.
+            </p>
+            <p class="project-description" style="font-weight: 500;">Result - Named KP Fellows finalist for 2019
+              </p>
+  
+            <a class="case-link hvr-underline-from-left" href="Mango.html" target="_blank">
+              Read Case Study
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+          <div class="twelve columns project-card" id="project-even">
+            <div class="seven columns img-container-mobile" style="float: left;">
+              <img class="u-max-full-width" src="images/Venmo-mockup.png">
+            </div>
+            <div class="five columns" style="float: right; padding-top: 16px;">
+              <h1 class="project-name">Redesigning Venmo's payments flow</h1>
+              <h3 class="project-type">UX Design; Product Thinking</h3>
+              <p class="project-description">Redesigning Venmo to be more efficient in terms of transactions, as well as conceptualzing a potential recurring payments feature and exploring how it fits within Venmo's current ecosystem. 
+              </p>
+              <a class="case-link hvr-underline-from-left" id="Venmo-link" href="Venmo.html" target="_blank">
+                  Read Case Study
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Projects in progress 
+
+        <div class="row">
+            <div class="twelve columns project-card" id="project-even">
+              <div class="seven columns img-container-mobile" style="float: left;">
+                <img class="u-max-full-width" src="images/design.png">
+              </div>
+              <div class="five columns" style="float: right; padding-top: 16px;">
+                <h1 class="project-name">Wizehire e-mail templates feature</h1>
+                <h3 class="project-type">Product Design internship</h3>
+                <p class="project-description">Redesigning Venmo to be more efficient in terms of transactions, as well as conceptualzing a potential recurring payments feature and how it fits in Venmo's current ecosystem. 
+                </p>
+                <a class="case-link hvr-underline-from-left" id="Wizehire-link" href="Mango.html" target="_blank">
+                    Read Case Study
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+              <div class="twelve columns project-card" id="project-even">
+                <div class="seven columns img-container-mobile" style="float: left;">
+                  <img class="u-max-full-width" src="images/design.png">
+                </div>
+                <div class="five columns" style="float: right; padding-top: 16px;">
+                  <h1 class="project-name">Designing for growth</h1>
+                  <h3 class="project-type">Product Design internship; Growth design</h3>
+                  <p class="project-description">Led redesign of the current referral experience from within the Wizehire ATS product to drive user growth in a scalable manner.  
+                  </p>
+                  <a class="case-link hvr-underline-from-left" id="Wizehire-link" href="Mango.html" target="_blank">
+                      Read Case Study
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+-->
+    
+
+
+
+    <!-- Old Style
+    <div class="row">
       <div class="twelve columns project-card" id="project-even">
-        <div class="seven columns img-container-mobile" style="float: right;">
+        <div class="seven columns img-container-mobile" style="float: right; padding-top: 16px;">
           <img class="u-max-full-width" src="images/New_assets/PD-Thumbnail.png" style="max-height: 900px;">
         </div>
         <div class="five columns" style="float: right;">
           <h1 class="project-name">PagerDuty</h1>
           <div class="project-banner-alt" id="project-PD"></div>
           <h3 class="project-type">UX Design Intern</h3>
-          <p class="project-description">I spent the summer interning at PagerDuty, where I designed a feature for the core enterprise product to better represent administrative data, and designed an internal
-            tool to help curate user research and customer learnings.
+          <p class="project-description">I spent the summer of 2018 interning at PagerDuty, where I redesigned a feature for the core enterprise product to better represent administrative data within teams for incident management, and allow admins to make incident management decisions with more confidence. 
           </p>
 
           <p class="project-description">Note - Contact me on e-mail to learn more!
@@ -179,14 +337,15 @@ return " ";
       </div>
     </div>
 
-    <div class="row wow animated fadeIn">
+
+
+    <div class="row">
       <div class="twelve columns project-card" id="project-even">
         <div class="seven columns img-container-mobile" style="float: left;">
           <img class="u-max-full-width" src="Taskboard-new-final-assets/Taskboard-final.png" style="max-height: 900px;">
         </div>
         <div class="five columns" style="float: right;">
           <h1 class="project-name">Taskboard</h1>
-          <div class="project-banner-alt" id="project-Taskboard"></div>
           <h3 class="project-type">UI/UX Design</h3>
           <p class="project-description">Designing and conceptualizing an alternative way to view and visualize tasks. Inspired by the agile methodology and Kanban boards.
           </p>
@@ -203,14 +362,13 @@ return " ";
 
 
 
-    <div class="row wow animated fadeIn">
+    <div class="row">
       <div class="twelve columns project-card" id="project-even">
         <div class="six columns img-container-mobile" style="float: right;">
           <img class="u-max-full-width" src="images/Landing Page.png" style="max-height: 500px;">
         </div>
         <div class="six columns" style="float: right;">
           <h1 class="project-name">Focus Imaging</h1>
-          <div class="project-banner-alt" id="project-GE"></div>
           <h3 class="project-type">Design and Front-end development</h3>
           <p class="project-description">Designed and developed a responsive single page website for a medical company</p>
           <a href="Focus.html">
@@ -221,14 +379,13 @@ return " ";
     </div>
 
 
-    <div class="row wow animated fadeIn" data-wow-duration="1.5s">
+    <div class="row">
       <div class="twelve columns project-card" id="project-even">
         <div class="six columns img-container-mobile" style="float: left;">
           <img class="u-max-full-width" src="images/New_assets/Design-challenge-thumb.png" style="max-height: 400px;">
         </div>
         <div class="six columns" style="float: right;">
           <h1 class="project-name">Google design challenge</h1>
-          <div class="project-banner-alt" id="project-GE"></div>
           <h3 class="project-type">UI/UX Design; Design challenge</h3>
           <p class="project-description">Designing an efficient way to book a music rehearsal space on campus.
           </p>
@@ -240,12 +397,14 @@ return " ";
     </div>
 
 
+    -->
 
-    <div class="row wow animated fadeIn">
+
+
+    <div class="row">
       <div class="twelve columns footer-card">
 
-        <div class="project-banner-alt" id="footer"></div>
-        <p class="footer-description">Want to work on something interesting? Contact me at <a class="footer-link" href="mailto:chaitanyaprashant@gmail.com">chaitanyaprashant@gmail.com</a>
+        <p class="footer-description">Want to work on something interesting? Contact me at <a class="resume-link hvr-underline-from-left" href="mailto:chaitanyaprashant@gmail.com">chaitanyaprashant@gmail.com</a>
       </div>
     </div>
   </div>
