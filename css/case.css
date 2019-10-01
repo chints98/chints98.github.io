@@ -274,7 +274,13 @@ a:hover {
 
 }
 
-
+.project-content-bold {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+}
 
 .project-emphasis {
   margin-left: 10px;

@@ -91,7 +91,7 @@
     </div>
     
  </div>
- <img class="u-max-full-width" src="images/Wizehire-big-mockup.png" width="100%;">
+ <img class="u-max-full-width" src="images/Wizehire-big-mockup.png" style="width: 100%">
 
 
 
@@ -115,7 +115,7 @@
           <div class="three columns offset-by-one">
               <h3 class="role-subheading">Team</h3>
               <p class="role-content">Chaitanya Prashant - Design</p>
-              <p class="role-content">Chad Masso - Product Owner and engineer</p>
+              <p class="role-content">Chad Masso - Product and Engineering</p>
               <p class="role-content">Ritz Wu - Data</p>
               <p class="role-content">Leisha Scallan - Illustrator</p>
               <p class="role-content">Olive Krawczyk - Content</p>
@@ -146,7 +146,8 @@
           <p class="project-content">If we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share the value of Wizehire as a product to others within their network, driving new user growth. 
         </p>
 
-        <!-- IMAGE HERE-->
+        <img class="u-max-full-width" src="images/Wizehire-assets/Hiring-variant-2.png" style="width: 100%">
+
      </div>
    </div>
  </div>
@@ -167,7 +168,7 @@
 
         <p class="project-content"style="font-weight: 500;">NPS scores across the year</p>
 
-        <!-- IMAGE HERE--> 
+        <img class="u-max-full-width" src="images/Wizehire-assets/NPS-scores.png" style="width: 100%">
 
 
 
@@ -188,7 +189,8 @@
          <p class="project-content">Although the number of referrals isn’t a metric that provides deep trend of invites in the product, a metric that was useful to see an opportunity was a cohort’s (the year a user signed up) propensity to invite.
             </p>
 
-            <!-- IMAGE HERE -->
+            <img class="u-max-full-width" src="images/Wizehire-assets/Data-table.png" style="width: 100%">
+
 
 
 
@@ -197,7 +199,71 @@
          <p class="project-content" style="font-weight: 500;">How many existing users (promoters) are sending out invites to others on the platform?</p>
          <p class="project-content">Taking a closer look at the number of promoters throughout this two year span since the referral program was launched, they make up 65% of the user population who responded to an NPS survey (response rate: 24%).         </p>
 
-         <p class="project-content">However, there were only 51 users who referred 300 people, which is 13% of the overall promoter base out of 2,552 users.         </p>
+         <p class="project-content" style="font-weight: 500;">However, there were only 51 users who referred 300 people, which is 13% of the overall promoter base out of 2,552 users.         </p>
+
+         <p class="project-content">While referral programs can seem sketchy in a lot of situations, a well designed referral program is one which offers the user a reminder and an incentive as to what they value about the product, which is why we aimed to validate our hypothesis with promoters first.  
+        </p>
+         <p class="project-content" style="font-weight: 500;">Survey</p>
+         <p class="project-content">I sent out a private survey to 40 of the promoters on the product, aiming to validate some of the numbers, with some key questions including</p>
+         <ul>
+             <li class="project-content">
+                Have you ever referred someone to Wizehire? If so, how many times?</li>
+                <li class="project-content">
+                Where did you access the referral from within the product?</li>
+
+                    <li class="project-content">
+                        Was it easy to find the referral page in the product? If not, why so?</li>
+
+                        <li class="project-content">
+                            Why did you refer Wizehire?</li>
+         </ul>
+         <p class="project-content">The main insight from these survey results were that referrals were only easily accessible from the sidebar, with 40% of the users not knowing that they could get to the referrals page through account settings. 90% respondents also validated that they refer Wizehire to friends due to the value they find in the product themselves.</p>
+         
+         <p class="project-content" style="font-weight: 500;">Auditing the current experience</p>
+         <p class="project-content"><a style="font-weight: 500;">tl;dr:</a> An engineer and myself led an audit of the current referral experience. The audit, alongside the survey results helped us realize that most of our users weren’t discovering the referrals feature, whilst the current referrals feature suffered from a lack of consistency. We also analyzed the user’s journey to identify touchpoints and moments of achievement where referrals could possibly be surfaced.
+         </p>
+ 
+         <p class="project-content">Myself and a product engineer led an audit on the current referral experience to identify areas of improvement in the referral experience, as well as analyze the different points of entry.</p>
+
+         <img class="u-max-full-width" src="images/Wizehire-assets/Old-dashboard-design.png" style="width: 100%">
+         <p class="image-caption">Referral callout surfaced on the dashboard</p>
+
+         <img class="u-max-full-width" src="images/Wizehire-assets/Legacy-referrals.png" style="width: 100%">
+         <p class="image-caption">Legacy referrals page that is shown after clicking on the callout link</p>
+
+
+         
+         <p class="project-content">To invite a friend, a user can click on the link in the call-out, but it <a style="font-weight: 500;">leads to the legacy referrals page, whilst the product’s own referrals page is within settings. </a>
+        </p>
+         <p class="project-content">This inconsistent experience can lead to a lack of context and trust in certain situations, with a lot of users being confused as to why they were lead to a different looking product. 
+        </p>
+         <p class="project-content">Another problem we identified was the lack of visibility for the referrals program, as it was only accessible with a small call-out in the sidebar navigation.</p>
+         <p class="project-content">The referrals page itself is also abstracted away in the information architecture, being housed in the advanced settings page.</p>
+         <img class="u-max-full-width" src="images/Wizehire-assets/New-referrals.png" style="width: 100%">
+         <p class="image-caption">Referrals page within the product</p>
+
+         
+         <p class="project-content" style="font-weight: 500;">The audit along with the survey helped us realize that most of our users weren’t discovering the referrals feature. 
+        </p>
+         <p class="project-content">I also explored a user’s journey throughout using Wizehire to identify key touchpoints in their journey where they achieve their goal in terms of using the product, and what features they use the most. This helped us set principles for the referral experience that would serve as a north star for the project.</p>
+         <p class="project-content">Note: I am currently unable to showcase the diagram due to an NDA signed with the company, however the insights our team gained were instrumental in setting goals for the entire experience, as well as informed us as we designed various user flows for the experience.</p>
+         <p class="project-content" style="font-weight: 500;">Some of the key touchpoints in the experience included</p>
+         <ul>
+            <li class="project-content">
+                When the user makes a hire within the ATS</li>
+               <li class="project-content">
+               A user whilst using the dashboard (main activity hub)</li>
+
+                   <li class="project-content">
+                    When a user’s account closes (Wizehire isn’t a permanent subscription service)</li>
+
+                       <li class="project-content">
+                           New user experience for an invited user</li>
+                           <li class="project-content">
+                            Top level account navigation</li>
+        </ul>
+        
+
 
       </div>
     </div>
@@ -206,18 +272,51 @@
   <div class="row content-container">
       <div class="twelve columns">
         <div class="four columns">
-           <h3 class="project-subheading">Hypothesis</h3>
-           <img class="u-max-full-width" src="images/PagerDuty-new-workflow.png"style="padding-top: 32px;">
-           <p class="image-caption">Redesigned workflow</p>
-
+           <h3 class="project-subheading">Goals</h3>
         </div>
         <div class="eight columns">
-           <p class="project-content">A simplified workflow for viewing and configuring teams based objects, that lets administrators make incident management decisions with confidence.</p>
-           <p class="project-content"style="font-weight: 500;">Success metric </p>
-           <p class="project-content">10% increase in feature usage for new users during multivariate testing.</p>
-           <p class="project-content" style="font-weight: 500;">Why this metric?</p>
-           <p class="project-content">We observed through our analytics tool (Pendo), that while 80% of our users were landing on this feature, over time, they resorted to using the alternate workflow mentioned above (going through individual objects)</p>
-           <p class="project-content">This would help us measure if our redesign effectively reduced the friction that our users faced during this process.</p>
+           <p class="project-content"style="font-weight: 500;">Wizehire goals</p>
+           <ul>
+            <li class="project-content">
+                Make it easier for Wizehire users who value the product to be able to share it with friends and their network</li>
+               <li class="project-content">
+               Increase number of referrals for dormant promoters within the product.</li>
+        </ul>
+           <p class="project-content" style="font-weight: 500;">User goals</p>
+           <ul>
+            <li class="project-content">
+                Share Wizehire's value with other people within their network who need hiring help</li>
+               <li class="project-content">
+               Use Wizehire's product at a cheaper price (through the $100 off for each friend that is referred and signed up on the platform)</li>
+        </ul>
+           <p class="project-content" style="font-weight: 500;">Principles</p>
+           <p class="project-content">We set ourselves principles or key experience goals that would guide our designs and ensure that we stayed in scope.</p>
+           <ul>
+            <li class="project-content">
+                Easily accessible, but not intrusive</li>
+               <li class="project-content">
+               Scalability - How might we design the referral experience to be scalable, so that the experience is consistent and engineering workload is reduced.</li>
+
+                   <li class="project-content">
+                    When a user’s account closes (Wizehire isn’t a permanent subscription service)</li>
+
+                       <li class="project-content">
+                           New user experience for an invited user</li>
+                           <li class="project-content">
+                            Top level account navigation</li>
+        </ul>
+
+        <p class="project-content" style="font-weight: 500;">What does success look like?</p>
+
+        <p class="project-content">An increase in the percentage of invites sent out on the platform(propensity to refer should be in the 0.5-0.6 range. 
+        </p>
+        <p class="project-content">An increase in the percentage of promoters to 40-50% that are sending out invites.</p>
+      
+
+
+       
+       
+       
         </div>
       </div>
     </div>
@@ -226,16 +325,33 @@
     <div class="row content-container">
         <div class="twelve columns">
           <div class="four columns">
-             <h3 class="project-subheading">Initial Sketches</h3>
-             <p class="project-content">I sketched out various ideas I had for a solution to the problem space, and narrowed down the concept to a few ideas after validating them with our PM and UX Designer.</p>
+             <h3 class="project-subheading">High Level Flow</h3>
+             <p class="project-content">Framing the user flow as a set of modules helped us immensely as a team, as we were able to gain alignment on</p>
+             <ul>
+                    <li class="project-content">
+                        High level experience goals, and how each potential touchpoint impacts the goal</li>
+                       <li class="project-content">
+                       Prioritizing which design opportunities to focus on in terms of potential impact early on</li>
+            </ul>
+          </div>
+          <div class="eight columns">
+              <!-- IMAGE HERE  -->
+                <p class="project-content">We were able to identify three opportunity spaces where we could make a clear impact straight away.</p>
 
+                <img class="u-max-full-width" src="images/Wizehire-assets/User-flows.png" style="width: 100%">
+                <p class="image-caption">Proposed user flow broken down into a set of modules</p>
+                       <p class="project-content-bold">Opportunity space - During Hiring stages</p>
+                <p class="project-content">When a user makes a hire on the product, that is their greatest moment of achievement, as the goal of Wizehire is to help a user make an informed hire. We hypothesized that if we surfaced referral options at a touchpoint which provides a user value, it would drive the number of invites upwards.
+                    </p>
+                <p class="project-content-bold">Opportunity space - Surfacing referrals higher in the information architecture</p>
+                <img class="u-max-full-width" src="images/Wizehire-assets/Wizehire-settings-IA.png" style="width: 100%">
+                <p class="image-caption">Opportunity to potentially surface referrals in the main account menu</p>
+                       <p class="project-content">Considering our previous goal, as well as in a case where a callout is not present, surfacing referrals higher in the information architecture would always be discoverable and persistent.
+                    </p>
+                <p class="project-content-bold">Opportunity space - Dashboard</p>
+                <p class="project-content">Although the previous design also had a callout on the dashboard, after conversations with stakeholders as well as an engineer, users spend most of their dormant time within the dashboard for a high level view.</p>
           </div>
-          <div class="four columns">
-              <img class="u-max-full-width" src="images/Sketch-1.JPG" style="transform: rotate(90deg); padding-top: 160px; ">
-          </div>
-          <div class="four columns">
-              <img class="u-max-full-width" src="images/Sketch-2.JPG" style="transform: rotate(90deg); padding-top: 160px;">
-          </div>
+
         </div>
       </div>
 
@@ -243,76 +359,112 @@
       <div class="row content-container">
           <div class="twelve columns">
             <div class="four columns">
-               <h3 class="project-subheading">Design Decisions</h3>  
-  
+               <h3 class="project-subheading">Crafting a referral flow</h3>  
+               <p class="project-content">My role in this project consisted of designing the referral experience across the three identified touchpoints, guided by the goals we had set earlier as a team.</p>
+               
+
             </div>
             <div class="eight columns">
-               <p class="project-content"style="font-weight: 500;">Representing teams within a single view </p>
-               <p class="project-content">One of the main objectives of the design was to provide our user with a high level view of all the team related information and objects they could interact with. 
-                </p>
-                <p class="project-content">This was to ensure that the information users were looking at was easily scannable and would help them make incident management decisions efficiently. 
-                  </p>
-                <p class="project-content">To this end, I made a few explorations that would hopefully aid us in achieving this goal.
-                  </p>
+                    <p class="project-content" style="font-weight: 500; font-size: 24px;">Surfacing referrals on the dashboard</p>
 
-                  <img class="u-max-full-width" src="images/PD-Design-Folder/Sol.B.png"style="padding-top: 32px;">
+                    <p class="project-content">As we wanted to keep the experience scalable and non intrusive, especially on the dashboard of the product, which lead to us considering a call-out. I iterated on the call out that previously existed after feedback from the team, with the goal of making it more prominent.</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Lo-fi-callout.png" style="width: 100%">
+                    <p class="image-caption">Low fidelity design if the callout</p>
+                               <p class="project-content" style="font-weight: 500;">Selecting the layout</p>
+                    <p class="project-content">Our team converged on two explorations for where in the interface the referral callout would be surfaced, keeping in mind the goals we had set.</p>
+                    <p class="project-content" style="font-weight: 500;">Variant 1 - Referral callout on sidebar navigation</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Dashboard-variant-1.png" style="width: 100%">
+                               
+                    
+                    <p class="project-content-bold" style="color: green;">PROS</p>
+                    <p class="project-content">Always persistent in navigation</p>
+                    <p class="project-content-bold" style="color: red;">CONS</p>
+                    <p class="project-content">Loss of context in other situations of the product- i.e managing a team or evaluating and using filters for the ATS.</p>
+                    <p class="project-content">Visual dissonance with the existing sidebar</p>
+                    <p class="project-content-bold"style="color: #FFA500;">CONCERNS</p>
+                    <p class="project-content">Engineering resources - Unscalable CSS code to account for various cases in the sidebar</p>
+                    <p class="project-content-bold">Variant 2- Callout as a floating action</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Dashboard-variant-2.png" style="width: 100%">
+                               <p class="project-content-bold" style="color: green;">PROS</p>
+                    <p class="project-content">Able to discover referral link without clutter in the sidebar</p>
+                    <p class="project-content-bold"style="color: #FFA500;">CONCERNS</p>
+                    <p class="project-content">Potentially easier for users to miss (as users read from left to right)</p>
+                    <p class="project-content">If a user removes the callout, is there a place for easy access to referrals?</p>
 
-                <p class="image-caption">Solution A - two separate data tables
-                  </p>
-                <p class="project-content">In this exploration, the explicit copy above the data tables show what the user is viewing at any given time
-                  </p>
-                <p class="project-content">However, I hypothesized that two different data tables on a single page increases cognitive load for the user, denying them the ability to quickly focus on one particular view between parent and sub team. This was something we definitely wanted to test.
-                  </p>
 
-                  <img class="u-max-full-width" src="images/PD-Design-Folder/Sol.C.png"style="padding-top: 32px;">
 
-                <p class="image-caption">Solution B - tag based search and filter
-                  </p>
-                <p class="project-content">Solution B presents a tag based filter solution, with search functions for subteams, object name, and role.
-                  </p>
-                <p class="project-content">However, there were some important questions that needed to be answered.
-                  </p>
-                <p class="project-content">Would the information contextualized in the right way? 
-                  </p>
-                <p class="project-content">There was a definite tradeoff b/w granular info and control vs. speed, which was the main intent for simplifying the workflow anyways. 
-                  </p>
-                <p class="project-content">After touching base with engineering, a constraint was that we had never implemented tag based search and filter before, and engineers had other high priority tickets at the time, which led us to iterate on other concepts. 
-                  </p>
-                  <img class="u-max-full-width" src="images/PD-Design-Folder/Sol.E_users_contextswitch.png"style="padding-top: 32px;">
+                    <p class="project-content-bold">Considering the user flow diagram above, what would the call out link to? Would it be the existing referral page? Or would we surface a modal?</p>
+                    <p class="project-content">After discussing this idea with our product team, we realized that surfacing a modal each time a user clicks on a callout interrupts the flow of a user within the product, while it is too little screen estate to show metrics such as amount of credits earned and number of friends invited.</p>
+                    <p class="project-content">Therefore, we decided that all touchpoints would lead to the referrals page itself, with that being the users’ intent.</p>
+                    <p class="project-content-bold">Final design for entry point</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Final-callout-dashboard.png" style="width: 100%">
+                    <p class="image-caption">Note- this was after iterations on both the illustrations and copy</p>
+                               <p class="project-content">We went ahead with Variant 2 for our first test, due to the engineering constraints brought forward by Chad, as well as our primary goal of keeping the module scalable and consistent across touchpoints.</p>
 
-                <p class="image-caption">Solution C - segmented controls</p>
-                <p class="project-content">Solution C, however, leveraged segmented controls as a design pattern, where users could clearly change context in terms of viewing parent team based data or subteam based data.
-                  </p>
-                <p class="project-content">Segmented controls allow for quick and easy context switching, where a user is able to focus on a particular view, either the parent team or the subteams within.</p>
+                    <p class="project-content" style="font-weight: 500; font-size: 24px;">Surfacing referrals within hiring stages</p>
 
-                <p class="project-content">To implement, I audited best practice usage of segmented controls in enterprise apps such as Salesforce and ServiceNow to inform our design</p>
-                <p class="project-content">Keeping this in mind, we advanced with solution C as the best course of action for the team view, with the goal of testing out solution A for the case where the administrator would want to view both parent teams and sub-teams.</p>
-                
-               <p class="project-content" style="font-weight: 500;">Surfacing data in an intuitive way</p>
-               <p class="project-content">Another important design decision was to surface data to our users in a way that was scalable, and the goal was to help users to clearly see the team and sub team hierarchies involved.</p>
-               <img class="u-max-full-width" src="images/PD-Design-Folder/Data_table_a.png"style="padding-top: 32px;">
+                    <p class="project-content">Aiming to surface the option to invite a friend when a user hires, I created some design explorations with the goal of celebrating the users’ success, whilst being in context and not interruptive.</p>
 
-               <p class="image-caption">Solution A - Data table with team role and subteam combined</p>                
-                <p class="project-content">While this solution works well for a singular user on a team when they might have a defined role. However, we must consider the case where a user could be part of a subteam within a subteam (nested subteams). Would this cause information overload?
-</p>
-                <p class="project-content">The main question here was whether this would scale for such a case, something that we’d only be able to test with real users.
-                  </p>
-                
-                  <img class="u-max-full-width" src="images/PD-Design-Folder/Big_data_table_b.png"style="padding-top: 32px;">
+                    <p class="project-content-bold">Variant 1- Tooltip</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Hiring-variant-1.png" style="width: 100%">
+                    <p class="image-caption">Exploration with tooltip on the top right containing referral link</p>
+                               <p class="project-content-bold" style="color: green;">PROS</p>
+                    <p class="project-content">Discoverable while taking significantly less screen real estate</p>
+                    <p class="project-content-bold" style="color: red;">CONS</p>
+                    <p class="project-content">Inconsistent with usage of tooltips in other areas of the product as a design pattern</p>
 
-                  <p class="image-caption">Solution B - Data table with team role in a separate column</p>                
-                  <p class="project-content">Essentially, this solution aimed to abstract the two key data points(roles and subteams), with the design intent that it'd provide clear separation between a subteam and specific roles a user might have.</p>
-               
-                <p class="project-content">It made logical sense from an administrator standpoint, as it is even more explicit what user or object is in a subteam, guiding the user in their intent to select and view based on their subteam-based role, while being more scalable/consistent for other objects such as Escalation policies and integrations. </p>
-               
-                <img class="u-max-full-width" src="images/PD-Design-Folder/Data_table_c.png"style="padding-top: 32px;">
+                    <p class="project-content-bold">Variant 2 - Callout</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Hiring-variant-2.png" style="width: 100%">
+                    <p class="image-caption">Callout on the right side of the screen, after a user makes a hire</p>
+                               <p class="project-content-bold" style="color: green;">PROS</p>
+                    <p class="project-content">Able to discover referral link without clutter in the sidebar</p>
+                    <p class="project-content-bold" style="color: red;">CONS</p>
+                    <p class="project-content">Does this interrupt the flow of work for a user?</p>
+                    <p class="project-content-bold" style="color: #FFA500;">CONCERNS</p>
+                    <p class="project-content">Could be jarring in a user's current context without any motion or feedback</p>
 
-                <p class="image-caption">Solution C - data table with base and subteam roles in a single columns</p>                
-                <p class="project-content">This allowed administrators to view users’ base roles along with team roles, but did this scale well with other objects (Escalation Policies, integrations) relevant to subteams? </p>
-                <p class="project-content">After looking back at user interview notes, we realized that administrators weren’t looking at base roles when making decisions, but rather team specific roles to triage incident management. 
-                  </p>
-                <p class="project-content" style="font-weight: 500;">We went with Solution B for our data tables as it was highly scalable, surfacing both object data and heirarchies in a way that is unobtrusive and explicit to the user, especially when tested against Solution A.</p>
-  
+                    <p class="project-content-bold">Iterating on how the callout is surfaced when a user makes a hire</p>
+                    <p class="project-content">With the goal of making the experience contextual and non-intrusive, yet subtly directing attention, we experimented with different ways in which we could utilize motion in the interface.                         </p>
+                    <p class="project-content">The use case for this prototype is when the user first moves a card to the hired section within hiring stages, indicating a hire.</p>
+
+                    <video controls style="max-height: 520px; max-width: 900px; display: inline-block; padding-bottom: 24px;">
+                            <source src="images/Wizehire-assets/Wizehire-referral-fade.mov">
+                        </video>               
+                        
+                        
+                        <video controls style="max-height: 520px; max-width: 900px; display: inline-block; padding-bottom: 24px;">
+                                <source src="images/Wizehire-assets/Wizehire-referral-horizontal.mov">
+                            </video>
+
+
+                            <video controls style="max-height: 520px; max-width: 900px; display: inline-block; padding-bottom: 24px;">
+                                    <source src="images/Wizehire-assets/Wizehire-referral-vertical.mov">
+                                </video>
+
+
+                    
+                               <p class="project-content">We went ahead with the vertical exploration, after auditing other products using referrals, as well as it being not as jarring as coming in from the side, or simply appearing without any particular context.</p>
+                    <p class="project-content-bold">Final design of the callout</p>
+                    <p class="project-content">I went ahead and iterated on the callout with a copywriter, and worked alongside an illustrator to make the copy and illustrations of the callout contextual for each touchpoint that a user might be a part of during their journey with the product, which was an important goal of the experiment.</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Finalized-callout-spec.png" style="width: 100%">
+                    <p class="image-caption">Finalized copy and layout spec for handoff</p>
+
+                    <p class="project-content-bold">Demo</p>
+                    
+                    <video controls style="max-height: 520px; display: inline-block; padding-bottom: 24px;">
+                            <source src="images/Wizehire-assets/Final-shipped-referrals-project.mov">
+                        </video>
+
+
+                    <p class="project-content" style="font-weight: 500; font-size: 24px;">A place for persistent access to referrals</p>
+
+                    <p class="project-content">We placed a link within the menu dropdown of the account profile, hypothesizing that surfacing referrals higher in the IA would lead to greater discoverability, and is a persistent area for the user to access the feature from anywhere within the product</p>
+
+                    <p class="project-content-bold">Final design</p>
+                    <img class="u-max-full-width" src="images/Wizehire-assets/Final-Navbar.png" style="width: 100%">
+                    <p class="image-caption">When a user hovers over the referral link, now in the account menu</p>
+
+                 
             </div>
           </div>
         </div>
@@ -322,19 +474,25 @@
         <div class="row content-container">
             <div class="twelve columns">
               <div class="four columns">
-                 <h3 class="project-subheading">Initial concept</h3> 
-                 <p class="project-content"style="font-weight: 500; color: green">PRO</p>  
-                 <p class="project-content">Segmented control allowed for quick context switching</p>   
-                 <p class="project-content"style="font-weight: 500; color: red">CON</p>  
-                 <p class="project-content">Used data table in subteams view where subteam and role are combined, detracting from a focused experience</p>   
-                 <p class="project-content">Potential information overload eg: one user on multiple sub teams with different roles</p>   
+                 <h3 class="project-subheading">Result and Impact</h3> 
+                 <p class="project-content-bold">
+                        We hypothesized that if we surface referral options to users at moments of achievement, as well as areas that are discoverable within context, it would allow users to share Wizehire as a product to others within their network more easily. 
+                        </p>
+                <p class="project-content-bold">We also predicted that designing the referral experience across various touchpoints of a user’s journey would lead to a higher number of promoters within the product to send invites.</p>
 
  
               </div>
               <div class="eight columns">
-                <video controls style="max-height: 520px; display: inline-block;">
-                    <source src="images/PD-Design-Folder/Iteration-1-prototype.mov">
-                </video>
+
+                    <p class="project-content">The experiment was released on August 15th, 2019, with the goal of testing this against the previous referral experience with half of the users in the product.</p>
+                    <p class="project-content">The experiment was a success, resulting in a relative lift of 20% of existing promoters within 3 weeks of launch. The plan is to launch the experience to all users, and iterate on UI and copy according to analytics data with more users, as well as observe other areas of potential impact within the users' journey.</p>
+
+                    <p class="project-content" style="font-weight: 500; font-size: 24px;">Selling design as a collective effort</p>
+
+                    <p class="project-content">As a part of an effort to make design more data informed, I pitched to a marketing engineer, as well as the CTO the benefits of setting up an analytics infrastructure, and we were able to co-ordinate this before the experiment released. Our tracking now includes a detailed breakdown of each elements action by integrating Segment and Mixpanel.</p>
+                    <p class="project-content"></p>
+
+
               </div>
             </div>
           </div>
@@ -343,16 +501,22 @@
           <div class="row content-container">
               <div class="twelve columns">
                 <div class="four columns">
-                   <h3 class="project-subheading">User Testing</h3>    
-                   <p class="project-content">Initial testing  unraveled a few problems with our design</p>
+                   <h3 class="project-subheading">Next Steps</h3>    
+                    </p>
                 </div>
                 <div class="eight columns">
-                   <p class="project-content">A simplified workflow for viewing and configuring teams based objects, that lets administrators make incident management decisions with confidence.</p>
-                   <p class="project-content">The two data tables in the “sub teams and parent team” view cause cognitive overload with admins  not being able to focus on two tables at the same time, detracting from our user’s intent to make  decisions quickly.</p>
-                   <p class="project-content">Lack of search bar in all sections left users confused, consistency issue which can potentially hinder experiences</p>
-                   <p class="project-content">Information felt cluttered within data tables - “I’m looking at too much here, how am I supposed  to parse through this?”- SRE at client company (Cisco)</p>
-                   <p class="project-content" style="font-weight: 500;">How might we better surface information in data tables for the "Subteam and Parent team view"</p>
-                   <p class="project-content"></p>
+                        <p class="project-content"></p>
+                        <p class="project-content">After presenting the project to be shipped, we got feedback from the sales team, who noted that while the subscription and invoice pages within the product aren’t “moments of achievement”, they still show critical information about payments, and seeing the effect of referrals on their bill could nudge them towards referring more friends. 
+
+                        <p class="project-content">The plan is to set up another growth experiment to see how it would influence the metrics, and I had a chance to work on some early screens of how we can surface referrals within these pages.</p>
+
+                        <img class="u-max-full-width" src="images/Wizehire-assets/Subscriptions-page.png" style="width: 100%">
+                        <p class="image-caption">Subscription page</p>
+
+                        
+                        <img class="u-max-full-width" src="images/Wizehire-assets/Invoice-page.png" style="width: 100%">
+                        <p class="image-caption">Invoices page</p>
+    
                  
                 </div>
               </div>
@@ -362,78 +526,21 @@
             <div class="row content-container">
                 <div class="twelve columns">
                   <div class="four columns">
-                     <h3 class="project-subheading">Iteration 2</h3> 
-                     <p class="project-content"style="font-weight: 500; color: green">PROS</p>  
-                     <p class="project-content">Separated data table is consistent and surfaces team heirarchies more clearly</p>
-                     <p class="project-content">Combined parent team and subteam view is clear and scalable</p> 
-                     <p class="project-content">Consistent search function across all segmented views</p>   
-  
-                     <p class="project-content"style="font-weight: 500; color: red">CON</p>  
-                     <p class="project-content">Visual differentiation of segmented controls not as accessible</p>   
+                     <h3 class="project-subheading">Reflections</h3> 
     
      
                   </div>
                   <div class="eight columns">
-                    <video controls style="max-height: 520px; display: inline-block;">
-                        <source src="images/PD-Design-Folder/Iteration-2-prototype.mov">
-                    </video>
+                 <p class="project-content">Being my first project focused on growth, I realized that it can be misleading and unsustainable to prefer short-term monetization instead of long term value, which is why it is so important to be data informed, rather than data driven 
+                    </p>
+                    <p class="project-content">Align with stakeholders early and often - This allowed me to have a good cadence in terms of feedback, as well as consider engineering constraints and align on the problem at hand.</p>
+                    <p class="project-content">Data informed - Designing for growth leans heavily towards experimentation, and it is absolutely critical to set up metrics of success to validate our hypothesis, enabling the team to learn quickly.                        </p>
+                    <p class="project-content">Design with the user’s journey in mind - When thinking about the long term, I found earlier on that we were experimenting to optimize a moment in the user’s journey. Instead, focusing on the user’s journey throughout the product led us to identify other areas of impact, as well as design the referral experience in a holistic manner.</p>
+
                   </div>
                 </div>
               </div>
-
-
-
-              <!-- Change each div to a container w/ padding?-->
-              <div class="row content-container">
-                  <div class="twelve columns">
-                    <div class="four columns">
-                       <h3 class="project-subheading">Final Design</h3> 
-                       <p class="project-content">I iterated on the segmented control to be more accessible and minimize dissonance, and worked with our design systems lead Olivier to implement</p>   
-                       <p class="project-content">Entry point - Teams configuration page</p>          
-       
-                    </div>
-                    <div class="eight columns">
-                      <video controls style="max-height: 520px; display: inline-block;">
-                          <source src="images/PD-Design-Folder/Final-design-prototype.mov">
-                      </video>
-                    </div>
-                  </div>
-                </div>
-
     
-
-                <div class="row content-container">
-                    <div class="twelve columns">
-                      <div class="four columns">
-                         <h3 class="project-subheading">Impact</h3>    
-                      </div>
-                      <div class="eight columns">
-                         <p class="project-content">13% increase of feature usage against previous design over multivariate testing during beta launch.</p>
-                         <p class="project-content">Qualitative surveys validated improvement from previous design, and pitched design to our Product Manager, adopted by the team for product roadmap                          </p>
-                         <p class="project-content" style="font-weight: 500;">Update: Feature shipped in October</p>
-          
-                      </div>
-                    </div>
-                  </div>
-        
-
-                  <div class="row content-container">
-                      <div class="twelve columns">
-                        <div class="four columns">
-                           <h3 class="project-subheading">Lessons and Next Steps</h3>    
-                        </div>
-                        <div class="eight columns">
-                           <p class="project-content">Metrics are your ally in designing the right solution.</p>
-                           <p class="project-content">Design for the happy path first, before diving deeper into edge case scenarios. Especially coming in from a CS background, this was a struggle at first, but I realized that we need to be generative first before honing in and making corner case considerations.</p>
-
-            
-                           <p class="project-content">Communication and collaboration is key. Aim to bring in stakeholders early on in the design process.</p>
-                           <p class="project-content" style="font-weight: 500;">Potential next steps</p>
-                           <p class="project-content">How might we help existing users who left the feature for an alternate workflow come back? After discussing this with our UX design lead, a potential experiment proposed was to perhaps surface team based configuration on the home page, with the initial hypothesis that it would drive interaction.</p>
-
-                        </div>
-                      </div>
-                    </div>
                     <div class="row content-container">
                         <div class="twelve columns">
                           <div class="four columns">
