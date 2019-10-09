@@ -145,6 +145,10 @@
     <div class="twelve columns">
       <div class="four columns">
          <h3 class="project-subheading">Problem</h3>
+         <img class="u-max-full-width" src="images/PagerDuty-prev-workflow.png"style="padding-top: 32px;">
+         <p class="image-caption">Current workflow</p>
+
+
          <p class="project-content"></p>
       </div>
       <div class="eight columns">
@@ -167,7 +171,8 @@
 
             <p class="project-content">We also used the Jobs to Be Done frameowork to reframe the problem to include the user's motivation, and it gave us as a team a clear design goal to work towards.</p>
 
-         <p class="project-content" style="font-weight: 500;">How might we surface relevant information at a high level for admins and team managers so that they can make incident management decisions with confidence?</p>
+            <p class="content-subheading">Design Goal</p>
+         <p class="project-content" style="font-weight: 500;">How might we surface relevant information at a high level for administrators and team managers so that they can make incident management decisions with confidence?</p>
 
       </div>
     </div>
@@ -217,7 +222,7 @@
   
             </div>
             <div class="eight columns">
-               <p class="project-content"style="font-weight: 500;">Representing teams within a single view </p>
+               <p class="content-subheading"style="font-weight: 500;">Representing teams within a single view </p>
                <p class="project-content">One of the main objectives of the design was to provide our user with a high level view of all the team related information and objects they could interact with. 
                 </p>
                 <p class="project-content">This was to ensure that the information users were looking at was easily scannable and would help them make incident management decisions efficiently. 
@@ -258,7 +263,7 @@
                 <p class="project-content">To implement, I audited best practice usage of segmented controls in enterprise apps such as Salesforce and ServiceNow to inform our design</p>
                 <p class="project-content">Keeping this in mind, we advanced with solution C as the best course of action for the team view, with the goal of testing out solution A for the case where the administrator would want to view both parent teams and sub-teams.</p>
                 
-               <p class="project-content" style="font-weight: 500;">Surfacing data in an intuitive way</p>
+               <p class="content-subheading" style="font-weight: 500;">Surfacing data in an intuitive way</p>
                <p class="project-content">Another important design decision was to surface data to our users in a way that was scalable, and the goal was to help users to clearly see the team and sub team hierarchies involved.</p>
                <img class="u-max-full-width" src="images/PD-Design-Folder/Data_table_a.png"style="padding-top: 32px;">
 
@@ -317,11 +322,10 @@
                    <p class="project-content">Initial testing  unraveled a few problems with our design</p>
                 </div>
                 <div class="eight columns">
-                   <p class="project-content">A simplified workflow for viewing and configuring teams based objects, that lets administrators make incident management decisions with confidence.</p>
                    <p class="project-content">The two data tables in the “sub teams and parent team” view cause cognitive overload with admins  not being able to focus on two tables at the same time, detracting from our user’s intent to make  decisions quickly.</p>
                    <p class="project-content">Lack of search bar in all sections left users confused, consistency issue which can potentially hinder experiences</p>
                    <p class="project-content">Information felt cluttered within data tables - “I’m looking at too much here, how am I supposed  to parse through this?”- SRE at client company (Cisco)</p>
-                   <p class="project-content" style="font-weight: 500;">How might we better surface information in data tables for the "Subteam and Parent team view"</p>
+                   <p class="project-content" style="font-weight: 500;">How might we better surface information in data tables for the "Subteam and Parent team view?</p>
                    <p class="project-content"></p>
                  
                 </div>
@@ -359,7 +363,7 @@
                     <div class="four columns">
                        <h3 class="project-subheading">Final Design</h3> 
                        <p class="project-content">I iterated on the segmented control to be more accessible and minimize dissonance, and worked with our design systems lead Olivier to implement</p>   
-                       <p class="project-content">Entry point - Teams configuration page</p>          
+                       <p class="project-content-bold">Entry point - Teams configuration page</p>          
        
                     </div>
                     <div class="eight columns">

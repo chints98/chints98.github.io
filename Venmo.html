@@ -195,17 +195,13 @@
                </ul>
                
                 <p class="project-content">After analyzing interview notes, as well as observing their use cases for Venmo, I focused on two potential design opportunities and user pain points.</p>
-                <p class="project-content"style="font-weight: 500;">Ambiguity between paying and requesting</p>
+                <p class="content-subheading"style="font-weight: 500;">Ambiguity between paying and requesting</p>
                 <img class="u-max-full-width" src="images/Venmo-assets/Venmo-curr.JPG"style="padding-top: 32px; max-height: 667px;">
                <p class="image-caption-half">Current transaction experience</p>
 
                 <p class="project-content">From the interviews, 3 out of 6 users had been confused when it comes to paying vs requesting someone on Venmo.</p>
                 <p class="project-content">The similarly grouped CTA’s (pay / request) led people to accidentally pay money instead of requesting a certain amount. This can possibly lead to tension and awkwardness between the two parties, which is something that Venmo is trying to mitigate with its product.</p>
-                <p class="project-content"></p>
-                <p class="project-content"></p>
-                <p class="project-content"></p>
-                <p class="project-content"></p>
-                <p class="project-content"style="font-weight: 500;">The potential for recurring payments</p>
+                <p class="content-subheading"style="font-weight: 500;">The potential for recurring payments</p>
                 <p class="project-content">One core problem that kept coming up in my interviews was the nature of recurring payments</p>
                 <p class="project-content">5 out of the 6 users I interviewed used Venmo for recurring payments, which included</p>
                 <ul>
@@ -244,7 +240,7 @@
 
           </div>
           <div class="eight columns">
-            <p class="project-emphasis">Design for familiarity</p>
+            <p class="content-subheading">Design for familiarity</p>
             <img class="u-max-full-width" src="images/Venmo-assets/Venmo-flow.png"style="padding-top: 32px;">
             <p class="image-caption">Venmo's transactional flow mapped to the way humans pay
               </p>
@@ -252,11 +248,11 @@
 
 
             <p class="project-content">Venmo’s current interface works well because of how well it maps humans mental models of payment digitally. Therefore, I wanted to make sure that my solution would not represent a massive change to their mental models, but instead make transactions a more seamless interaction.</p>
-            <p class="project-emphasis">Foster focus and minimize ambiguity</p>
+            <p class="content-subheading">Foster focus and minimize ambiguity</p>
             <p class="project-content">Design for focus, since payments are sensitive and we need to eliminate ambiguity for users to make sure that they are paying or requesting for what’s needed, thus strengthening the trust of users in Venmo.</p>
-            <p class="project-emphasis">Emphasize user control and context</p>
+            <p class="content-subheading">Emphasize user control and context</p>
             <p class="project-content">The user should still feel in charge of all transactions, which increases trust and control in the product. User should be able to easily view contextual information so that they can complete their transaction accurately and efficiently.</p>
-            <p class="project-emphasis">Don’t stray from existing visual patterns</p>
+            <p class="content-subheading">Don’t stray from existing visual patterns</p>
             <p class="project-content">Venmo’s design as it stands today has gone through many iterations, backed with data and design rationale, which is why I set myself the constraint of not straying from existing design patterns within the Venmo paradigm. This way, my design solution could enrich the experience for new and old users alike, while respecting Venmo’s established principles that have influenced its design decisions.</p>
             <img class="u-max-full-width" src="images/Venmo-assets/Venmo-styleguide.png"style="padding-top: 32px;">
             <p class="image-caption">Concise visual styleguide
@@ -277,23 +273,26 @@
   
             </div>
             <div class="eight columns">
-              <p class="project-emphasis">Initial Sketches</p>
+              <p class="content-subheading">Initial Sketches</p>
               <img class="u-max-full-width" src="images/Venmo-assets/early-sketch.jpg"style="padding-top: 32px;">
 
   
               <p class="project-content">My initial sketches diverged between two possible solutions.</p>
               <p class="project-content">The first one on the top, involves the same flow as that seen on the current user flow for requesting or paying. However, upon tapping on pay or request, a confirmation modal is surfaced, with the user getting an intermittent reminder that they are indeed paying or requesting a certain amount.</p>
-              <p class="project-content">However, does this foster focus in our user flow? In another exploration, I explore using a drop-down after tapping the transaction call to action, with the user instantly being able to make a decision between pay or request, before going through the familiar transaction flow, with a single call to action (pay in the above example) instead that aims to minimize ambiguity and provide the user with laser focus on what they are doing. In comparison to the original flow, where a user might have to go back, or, accidentally pay vs. request, they now have a clear idea of what kind of transaction they are in.</p>
+              <p class="project-content-bold">However, does this foster focus in our user flow? </p>
+              <p class="project-content">In another exploration, I explore using a drop-down after tapping the transaction call to action, with the user instantly being able to make a decision between pay or request, before going through the familiar transaction flow, with a single call to action (pay in the above example) instead that aims to minimize ambiguity and provide the user with laser focus on what they are doing. In comparison to the original flow, where a user might have to go back, or, accidentally pay vs. request, they now have a clear idea of what kind of transaction they are in.</p>
               <p class="project-content">Whilst it seems counterintuitive to add another step to get to the transaction page, the design intent was that it'd nudge the user to think about what kind of transaction they are making before going through the rest of the flow.</p>
               <img class="u-max-full-width" src="images/Venmo-assets/Flow-1.png"style="padding-top: 32px;">
-         
+              <p class="image-caption"></p>
+
 
               <p class="project-content">Exploring this in a higher fidelity, there are intermittent reminders throughout the flow, including the explicit header and the singular call to action that serve as context to the user in terms of what transaction they are in. The flow, however, is familiar to Venmo’s holistic user flow in terms of transactions.</p>
               <img class="u-max-full-width" src="images/Venmo-assets/Flow-2.png"style="padding-top: 32px;">
-            
+              <p class="image-caption"></p>
 
 
-              <p class="project-content">However, one problem that I realized the interface had after informally testing this exploration and the app was that Venmo surfaced the call to action, even though a pop up appears if the user hasn’t written a description or the amount. To account for this, I created a second exploration that would hopefully act as a soft forcing function for the user to fill in all the necessary information before moving on.</p>
+
+              <p class="project-content">However, one problem that I realized the interface had after informally testing this exploration and the app was that Venmo surfaced the call to action, even though a pop up appears if the user hasn’t written a description or the amount. To account for this, I created an iterated upon exploration that would hopefully act as a soft forcing function for the user to fill in all the necessary information before moving on.</p>
               <p class="project-content">In this final user flow for transactions, the call to action to pay or request is only surfaced after the user has input a description and amount, where the intent is to mitigate confusion over whether the user has to put in a description or not, and instead fostering laser focus throughout the transaction process.</p>
             </div>
           </div>
@@ -310,15 +309,15 @@
   
             </div>
             <div class="eight columns">
-              <p class="project-emphasis">Feature Proposal</p>
+              <p class="content-subheading">Feature Proposal</p>
               <p class="project-content">Recurring payments are a potential area of entry to differentiate Venmo, especially as products like Zelle and Cash App are eating into Venmo’s market share.</p>
               <p class="project-content">A clear problem exists, where the current workflow for recurring payments is one with potential points of friction, and Venmo’s product goal is to help make payments less awkward and more efficient.</p>
               <p class="project-content">However, such a feature should still be consistent from a systematic standpoint with the current Venmo flow. Venmo already has a familiar flow to most users, and any changes to it should be subtle, so that it doesn’t breed unfamiliarity and confusion in the interface, which can potentially lead to lack of trust.</p>
               <p class="project-content">While a lot of recurring payment infrastructures in other products have auto-pay enabled, a key aspect of Venmo’s success is that they give users total control in terms of paying, and from which method (bank, Venmo balance). Also, auto-pay would be unfeasible from a UX standpoint, for example not all users have their banks connected, in the case where their Venmo balance is too low. Therefore, a reminder serves as a way to notify the user at a recurring date, without the possibility of them losing control of their money.</p>
-              <p class="project-emphasis">Main Use Cases</p>
+              <p class="content-subheading">Main Use Cases</p>
               <p class="project-content">Setting up a recurring request for rent or subscriptions</p>
               <p class="project-content">Leaving a recurring request (for example if an apartment mate has moved out), or editing transaction details.</p>
-              <p class="project-emphasis">Potential entry points</p>
+              <p class="content-subheading">Potential entry points</p>
               <img class="u-max-full-width" src="images/Venmo-assets/Flow-1/Screen43.png"style="padding-top: 32px;">
               <p class="image-caption-half">Add recipients page
                 </p>
@@ -334,8 +333,11 @@
               <p class="project-content">While exploring potential points of entry, one that stood out to me was the dropdown that I had implemented for the earlier payments flow. During interviews, Venmo users were pretty enthusiastic about the feature, with one saying</p>
               <p class="project-emphasis">“I’d probably use this feature less than normal requests, but still need a way to quickly ask for my friend’s part of the subscription without having to make a mental note every time”</p>
               <p class="project-content">With this in mind, I decided that the best entry point would be housed inside the redesigned payments flow, on the top right of the screen above. While being easily accessible, it isn’t as common a use case as pay or request, which is why I changed the button color to deemphasize it on the users hierarchy, while using iconography to signify the functionality.</p>
-              <p class="project-emphasis">Explorations for setting up a recurring request</p>
+              <p class="content-subheading">Explorations for setting up a recurring request</p>
+            
               <img class="u-max-full-width" src="images/Venmo-assets/Flow-3.png"style="padding-top: 32px;">
+              <p class="image-caption"></p>
+
 
               <p class="project-content">The first solution presents the dropdown first, where the user is able to select the recurring request option and is taken to the add recipients page, familiar to Venmo’s existing user flow, alongside the redesigned forcing function I implemented (only surfacing a call to action after transaction details have been filled out). After the user adds a recipient, amount and description however, I add another call to action that then allows them to edit the various parameters involved in recurring transactions, which are</p>
               <ul>
@@ -345,17 +347,26 @@
               <p class="project-content">I made sure to conform to existing iOS patterns here, so that the interaction is familiar, and one that fosters trust in the product. Once a user has entered their transaction details, they are able to tap on a single call to action (request), and confirm the recurring request, with the intention being that there is no ambiguity in the flow.</p>
               <p class="project-content">In terms of copy for the confirmation message, I decided to add the frequency of recurring requests to subtly remind the user again, the type of transaction that they are making, aiming to minimize any ambiguity that might take place.</p>
               <img class="u-max-full-width" src="images/Venmo-assets/Flow-4.png"style="padding-top: 32px;">
+              <p class="image-caption"></p>
+
               <p class="project-content">In the second solution, I explored a different flow, where the user after tapping on recurring requests, first selects the date based parameters before going on to add recipients and the remaining transaction details (amount, description). However, recurring transaction information is not provided in context during confirmation, which can increase cognitive load for the user (in terms of remembering dates and frequency of recurring requests without having a look at the information during confirmation.</p>
               <img class="u-max-full-width" src="images/Venmo-assets/Flow-5.png"style="padding-top: 32px;">
+              <p class="image-caption"></p>
+
               <p class="project-content">Therefore, I added the recurring transaction information during the confirmation stage of the flow. The intention being that it would lessen the cognitive load faced by the user when making the transaction and providing them control and context in terms of being able to change the recurring transaction details before confirmation. 
                 </p>
                 <img class="u-max-full-width" src="images/Venmo-assets/Venmo-flow.png"style="padding-top: 32px;">
+                <p class="image-caption"></p>
+
                 <p class="project-content">While these were two interesting divergent solution sets in terms of setting up recurring payments, I realized through research and Venmo’s own transaction flow compared to the traditional transaction flow that humans carry out (diagram above), it is awkward for them to decide transaction details before jumping to who the recipient is and the transaction amount.</p>
               <p class="project-content">Therefore Solutions 2 and 3 actually mismatch to users’ mental models in terms of how transactions are carried out, and thus I concluded that Solution 1 would prove a stronger one in terms of matching a users’ mental model, since it goes through the traditional transactional flow, with simply a step added in the description of a transaction. To give an example, if Joy is sharing a Netflix subscription with her friends, her first priority is to find the people she’s sharing the account with, before then looking at the amount and transaction details.</p>
-              <p class="project-emphasis">Accessing and editing a recurring payment</p>
+              <p class="content-subheading">Accessing and editing a recurring payment</p>
               <img class="u-max-full-width" src="images/Venmo-assets/explore-entry.JPG"style="padding-top: 32px; max-height: 667px;">
+              <p class="image-caption"></p>
+
               <p class="project-content">For being able to access and edit a recurring payment, I aimed to make this step incredibly simple for the user. They are able to access the payment from either within their feed or the profile, where they can edit the payment. This works similarly to the split call to action when users pay by Venmo card or in this example, Uber’s Venmo integration.</p>
               <img class="u-max-full-width" src="images/Venmo-assets/Edit-request.png"style="padding-top: 32px;">
+
               <p class="image-caption">Screens for editing a recurring request
                 </p>
 
