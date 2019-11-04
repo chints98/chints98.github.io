@@ -17,6 +17,8 @@ html {
 
 
 
+
+
 .hero-container {
   scroll-behavior: smooth;
  
@@ -34,7 +36,7 @@ html {
 /* hero - header*/
 h1 {
   font-size: 3.5em;
-  font-family: "Playfair Display", serif;
+  font-family: "soleil", serif;
   font-weight: 700; 
 }
 
@@ -73,7 +75,7 @@ a {
 
 
  h2 {
-   color: #333333;
+   color: #292929;
  }
 
 span {
@@ -81,8 +83,8 @@ span {
 }
 
 p{
-  font-weight: 300;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 500;
+  font-family: 'europa', sans-serif;
 
 }
 
@@ -115,7 +117,7 @@ p{
   line-height: 200%;
   font-size: 22px;
   margin-right: 20px;
-  font-family: 'Hind', sans-serif;
+  font-family: 'europa', sans-serif;
   font-weight: 400;
 
 }
@@ -210,7 +212,7 @@ p{
 
 .case-link {
   font-family: 'Hind', sans-serif;
-  color: #333333;
+  color: #292929;
   font-weight: 600;
   margin-left: 20px;
   font-size: 15pt;
@@ -218,19 +220,19 @@ p{
 
 .case-link:hover {
   text-decoration: none;
-  color: #333333;
+  color: #292929;
 }
 
 .resume-link {
   font-family: 'Hind', sans-serif;
-  color: #333333;
+  color: #292929;
   font-weight: 600;
   font-size: 18px;
 }
 
 .resume-link:hover {
   text-decoration: none;
-  color: #333333;
+  color: #292929;
 }
 
 
@@ -475,16 +477,16 @@ p{
   padding-left: 20px;
   font-size: 40px;
   font-weight: 600;
-  color: #333333;
+  color: #292929;
 }
 
 .project-type {
 
   padding-left: 20px;
-  color: rgb(51, 51, 51, 0.36);
+  color: rgb(51, 51, 51, 0.46);
   font-weight: 500;
   font-size: 22px;
-  font-family: 'Hind', sans-serif;
+  font-family: 'europa', sans-serif;
 
 }
 
@@ -494,7 +496,7 @@ p{
   line-height: 30px;
   font-size: 18px;
   color: #292929;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .footer-card {

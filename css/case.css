@@ -7,14 +7,14 @@
 /* hero - header*/
 h1 {
   font-size: 3.5em;
-  font-family: "Playfair Display", serif;
+  font-family: "europa", sans-serif;
   font-weight: 700; 
 }
 
 /* case - header*/
 h2 {
   font-size: 3em;
-  font-family: "Playfair Display", serif;
+  font-family: "europa", sans-serif;
   font-weight: 700; 
 }
 
@@ -22,20 +22,20 @@ h2 {
 /* hero - header*/
 h3 {
   font-size: 2em;
-  font-family: "Playfair Display", serif;
+  font-family: "europa", sans-serif;
   font-weight: 700; 
 }
 
 /* hero - header*/
 h4 {
   font-size: 1.5em;
-  font-family: "Playfair Display", serif;
+  font-family: "europa", sans-serif;
   font-weight: 700; 
 }
 
 
 body{
-  font-family: 'Hind', 'Open Sans', sans-serif;
+  font-family: 'soleil', 'Open Sans', sans-serif;
   background: #ffffff;
 }
 
@@ -55,7 +55,7 @@ span {
 
 p{
   font-weight: 300;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'soleil', sans-serif;
 
 }
 a {
@@ -66,11 +66,11 @@ a {
   font-weight: 600;
   font-size: 24px;
   color: #4f4f4f;
-  font-family: 'Playfair Display', serif;
+  font-family: 'europa', serif;
 }
 .case-title {
   color: #292929;
-  font-family: 'Playfair Display', serif;
+  font-family: 'europa', serif;
   font-weight: 600;
 }
 
@@ -150,7 +150,7 @@ a:hover {
 
 
 .case-link {
-  font-family: 'Hind', sans-serif;
+  font-family: 'soleil', sans-serif;
   color: #333333;
   font-weight: 600;
   font-size: 15pt;
@@ -238,7 +238,7 @@ a:hover {
   text-align: center;
   font-size: 20px;
   color: #959595;
-  font-family: 'Hind', sans-serif;
+  font-family: 'soleil', sans-serif;
   font-weight: 500;
 
 }
