@@ -64,7 +64,7 @@ h4 {
 
 
 body{
-  font-family: 'Hind', 'Open Sans', sans-serif;
+  font-family: 'europa', 'Open Sans', sans-serif;
   background: #ffffff;
 }
 
@@ -79,7 +79,7 @@ a {
  }
 
 span {
-  color: #fff;
+  color: #333;
 }
 
 p{
@@ -103,7 +103,7 @@ p{
 }
 
 .hero {
-  background-color: #F8F8F8;
+  background-color: #FFF;
   /*background-color: rgba(255, 229, 180, 0.32);*/
 }
 .top {
@@ -186,6 +186,19 @@ p{
 }
 
 
+/* Code for SVG overlay */
+.svg-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.svg-overlay svg {
+  position: absolute;
+  top: 0; 
+  left: 0;
+}
+
+
 .btn {
   height: 50px;
   width: 180px;
@@ -211,7 +224,7 @@ p{
 }
 
 .case-link {
-  font-family: 'Hind', sans-serif;
+  font-family: 'europa', sans-serif;
   color: #292929;
   font-weight: 600;
   margin-left: 20px;
@@ -290,17 +303,44 @@ p{
   background-color: #41BC00;
 }
 
-#Venmo-link:before {
-  background-color: #3D95CE;
+#PD-link:hover {
+  color: #41BC00;
+  opacity: 0.75;
+
 }
 
+
+#Venmo-link:before {
+  background-color: #3D95CE;
+
+}
+
+#Venmo-link:hover {
+  color: #3D95CE;
+  opacity: 0.75;
+
+}
 #Wizehire-link:before {
   background-color: #84AF43;
 }
 
-#Wizehire-link:before{
-  background-color: #8CAC54;
+#Wizehire-link:hover {
+  color: #84AF43;
+  opacity: 0.75;
+
 }
+
+#Mango-link:before {
+  background-color: #EF6C3C;
+}
+
+#Mango-link:hover {
+  color: #EF6C3C;
+  opacity: 0.75;
+
+}
+
+
 
 #PD:hover {
   background-color: #FAFAFA;
