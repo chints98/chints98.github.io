@@ -5,15 +5,17 @@
 }
 
 .menu--adsila a {
-	color: #272727;
+	color: #fff;
 }
+
+
 
 .menu--adsila .menu__item-name {
 	font-weight: bold;
 	line-height: 1.4;
     margin-left: 10px;
     padding:0 12px;
-	transition: color 0.5s;
+	transition: color 0.75s;
 	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 }
 
@@ -41,6 +43,32 @@
     background: #84AF43;
 
 }
+
+/* SVG Line drawing Animation */
+
+
+
+  .anim {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	display: inline-block;
+  
+  }
+
+  .anim svg {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	
+  
+  }
+
+  .anim path {
+	stroke-width: 5;
+  }
+
 
 /* Hover */
 
@@ -90,7 +118,7 @@
 /* Fade effect */
 .js body {
 	opacity: 0;
-	transition: opacity 0.3s;
+	transition: opacity 0.2s;
 }
 
 .js body.render {
